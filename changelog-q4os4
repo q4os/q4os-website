@@ -1,0 +1,187 @@
+2022-05-01 :
+calamares - shows “sudo .. unable to resolve host” error message at esh installers message - added libnss-myhostname package, check nsswitch.conf for “myhostname” has been added
+calamares - Remove Virtualbox guest additions on installation, if not in VM
+q4os and debian default repositories updated - check if they work ok
+bug: https://www.q4os.org/forum/viewtopic.php?id=4076 - unattended upgrades - rearranged unattended upgrades configuration
+eject command updated in the qinst-vboxgutils script - test it on windows vbox 32bit
+bug: https://sourceforge.net/p/q4os/tickets/185/ - No Xorg after Q4OS install - fixed with plymouth setup - fixed in tdm
+
+
+2022-04-20 ; q4os-vboxgutils 4.2-a1
+    Remove linux-headers dependencies, as vbox modules are no longer need to be built.
+    Adopt prerun script to for running in non-interactive mode.
+    New version.
+
+2022-04-20 ; q4os-base 4.9.2-a1
+ new repos in qrepoadd
+ fix: mark vbox auto installed, if not in vbox
+ hide download dialog in q4os dwnld script
+
+
+q4os-i18n
+ update translations
+
+q4os-base
+ ...
+
+
+=========================================================================
+2022-04-02 ; q4os-api (3.4-a1) ; Q4OS_4.7_Gemini
+    Improvements and significant updates for Q4OS Gemini.
+    Add language codes library and object.
+    Make code cleaner.
+    Added TDE shell command library.
+    Fix installer config file
+    Treat LC_ALL variable
+
+q4os-base
+setup
+swprofiler
+swcentre
+swprofiler-data
+swcentre-data
+q4os-desktop
+
+update to TDE .2
+
+
+
+=========================================================================
+2022-04-03 ; q4os-chrome (4.3-a1) ; Q4OS_4.7_Gemini
+ ** Fix for missing Google Chrome repository.
+  * Fix: remove setting a default web browser on uninstall.
+  * Make Bullseye repository the default.
+  * Required memory decreased.
+=========================================================================
+2022-03-23 ; q4os-winsetup (4.7-r4) ; Q4OS_4.7_Gemini
+*** Release: q4os-winsetup-4.7-r4.zip
+*** Release: q4os4-x64-loop.img.xz, version 4.7-r4
+  * Added support for nvme devices.
+  * Bugfix: Keep Grub binaries upon desktop profile applying.
+=========================================================================
+2022-03-12 ; firefox (98.0-2.1.q4os4.1) ; Q4OS_4.7_Gemini
+  * The complete release notes, see
+    https://www.mozilla.org/en-US/firefox/98.0/releasenotes/
+=========================================================================
+2022-03-05 ; q4os-winsetup (4.7-r3) ; Q4OS_4.7_Gemini
+*** Release: q4os-winsetup-4.7-r3.zip
+*** Release: q4os4-x64-loop.img.xz, version 4.7-r3
+  * Improve Grub template processing.
+  * Add choice for resize2fs run either within windows install process,
+    or at the first boot.
+  * Fix wrong version.
+=========================================================================
+2022-02-22 ; q4os-winsetup (4.7-r2) ; Q4OS_4.7_Gemini
+*** Release: q4os-winsetup-4.7-r2.zip
+*** Release: q4os4-x64-loop.img.xz, version 4.7-r2
+  * Improve hardware support for nvme devices.
+  * Finer swap space calculation.
+=========================================================================
+2022-02-20 ; q4os-winsetup (4.7-r1) ; Q4OS_4.7_Gemini
+*** Release: q4os-winsetup-4.7-r1.zip
+*** Release: q4os4-x64-loop.img.xz, version 4.7-r1
+ ** Trying to fix loopfile removing bug #175
+    https://sourceforge.net/p/q4os/tickets/175/
+  * Other various fixes.
+  * Cumulative upgrade to version 4.7 Gemini.
+=========================================================================
+2022-01-18 ; firefox (96.0.1-1.q4os4.1) ; Q4OS_4.7_Gemini
+  * The complete release notes, see
+    https://www.mozilla.org/en-US/firefox/96.0.1/releasenotes/
+=========================================================================
+2021-12-19 ; firefox (95.0.1-1.q4os4.1) ; Q4OS_4.7_Gemini
+  * The complete release notes, see
+    https://www.mozilla.org/en-US/firefox/95.0.1/releasenotes/
+=========================================================================
+2021-12-15 ; q4os-base (4.8.2-a1) ; Q4OS_4.7_Gemini
+  * Add Qemu guest detection into the "q4hw-info" tool.
+  * Replace "fcitx" with "fcitx5" packages for certain languages.
+  * Remove old Firefox icons.
+=========================================================================
+2021-12-15 ; q4os-swcentre-data (4.13.3-a1) ; Q4OS_4.7_Gemini
+  * Replace Firefox ESR with Firefox for architectures amd64 and i386.
+=========================================================================
+2021-12-15 ; q4os-firefox (4.2-a1) ; Q4OS_4.7_Gemini
+  * Make package "webext-ublock-origin-firefox" conflicting dependency.
+=========================================================================
+2021-12-15 ; firefox (95.0-1.q4os4.1) ; Q4OS_4.7_Gemini
+  * The complete release notes, see
+    https://www.mozilla.org/en-US/firefox/95.0/releasenotes/
+=========================================================================
+2021-11-23 ; install-media (4.7-r1) ; Q4OS_4.7_Gemini
+*** Release: q4os-4.7-x64-instcd.r1.iso
+*** Release: q4os-4.7-i386-instcd.r1.iso
+ ** Debian Bullseye 11.1 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/bullseye/ChangeLog
+ ** Update Debian-security repositories.
+  * Bugfix: "logname" command doesn’t work, if logged in with
+    tdm-trinity.
+  * Fix small fonts in GTK2 applications.
+  * Calamares - always install in secure boot mode for UEFI sytems.
+  * Cumulative upgrade.
+=========================================================================
+2021-11-22 ; install-media (4.7-r1) ; Q4OS_4.7_Gemini
+*** Release: q4os-4.7-x64.r1.iso
+*** Release: q4os-4.7-x64-tde.r1.iso
+ ** Debian Bullseye 11.1 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/bullseye/ChangeLog
+ ** Update Debian-security repositories.
+  * Bugfix: "logname" command doesn’t work, if logged in with
+    tdm-trinity.
+  * Fix small fonts in GTK2 applications.
+  * Calamares - always install in secure boot mode for UEFI sytems.
+  * Cumulative upgrade.
+=========================================================================
+2021-11-22 ; q4os-desktop (4.7.1-n1) ; Q4OS_4.7_Gemini
+  * Increase version number.
+=========================================================================
+2021-11-22 ; q4os-desktop-trinity (4.1.2-a1) ; Q4OS_4.7_Gemini
+  * Bugfix: "logname" command doesn’t work, if logged in with
+    tdm-trinity.
+  * Added "panel-desktop-handler.desktop" diversion.
+  * Remove a few Trinity desktop tweaks from postinst script.
+=========================================================================
+2021-11-22 ; q4os-base (4.8.1-a1) ; Q4OS_4.7_Gemini
+ ** Adopt for TDE R14.0.11 upgrade.
+ ** Adapt DPI settings and screen scaling processing.
+  * Enable get new wallpapers button again.
+  * Bugfix: Synaptic in plasma shows black and broken.
+  * Bugfix: doubled control panel entries in the classic menu.
+  * Remove unneeded TDE diversions.
+  * Fix small fonts in GTK2 applications.
+  * Various other changes and fixes.
+=========================================================================
+2021-11-22 ; q4os-synaptic-trinity (4.1-a1) ; Q4OS_4.7_Gemini
+  * Remove buggy "kdpkg-trinity" dependency.
+=========================================================================
+2021-11-22 ; q4os-swcentre (4.2.2-a1) ; Q4OS_4.7_Gemini
+  * Bugfix: Google Chrome appears to be installed even though it is
+    uninstalled.
+=========================================================================
+2021-11-22 ; q4os-swcentre-data (4.13.2-a1) ; Q4OS_4.7_Gemini
+  * Remove Xfburn, get back K3b-trinity.
+=========================================================================
+2021-11-22 ; q4os-sw-profiler-data (4.10.3-a1) ; Q4OS_4.7_Gemini
+  * Replace Xfburn with K3b-trinity for the full Trinity profile.
+=========================================================================
+2021-09-29 ; q4os-base (4.6.3-a1) ; Q4OS_4.6_Gemini
+ ** Fix missing Debian repositories.
+  * Bugfix: Small fonts in Plasma GTK2 applications.
+  * Fix GTK3 applications look in Trinity.
+=========================================================================
+2021-09-29 ; lookswitcher-trinity (4.2-a1) ; Q4OS_4.6_Gemini
+  * Bugfix: Spring theme doesn't set wallpaper.
+  * Bugfix: Small fonts in Plasma GTK2 applications.
+  * Fix GTK3 applications look in Trinity.
+=========================================================================
+2021-09-29 ; q4os-wallpapers (3.2.1-a1) ; Q4OS_4.6_Gemini
+  * Add new wallpapers.
+  * Remove some obsolete wallpapers.
+=========================================================================
+2021-09-28 ; q4os-i18n (3.9.1-a1) ; Q4OS_4.6_Gemini
+  * Updated Portuguese translations, thanks to Hugok79
+=========================================================================
+2021-09-27 ; q4os-base (4.6.2-a1) ; Q4OS_4.6_Gemini
+  * Fix missing gtk3 themes in Plasma for applications ran as root.
+  * Add bullseye-backports to "qrepoadd" tool.
+=========================================================================

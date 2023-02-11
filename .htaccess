@@ -1,0 +1,12 @@
+<FilesMatch "\.(?i:esh)$">
+  #ForceType application/force-download
+  ForceType application/octet-stream
+  Header set Content-Disposition attachment
+  Header set Content-Description File-Transfer
+  #Header set Cache-Control "store, no-cache, must-revalidate"
+</FilesMatch>
+
+# <FilesMatch "\.(?i:esh)$">
+#     ForceType application/octet-stream
+# #    Header set Content-Disposition attachment
+# </FilesMatch>

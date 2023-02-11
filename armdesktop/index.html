@@ -1,0 +1,67 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml" xml:lang="en">
+
+<head>
+  <title>The real Desktop on Raspberry Pi</title>
+  <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+
+  <!-- **** layout stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="style/style.css" />
+
+  <!-- **** colour scheme stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="style/blue.css" />
+
+  <!-- **** favicon **** -->
+  <link rel="shortcut icon" type="image/png" href="style/favicon.png"/>
+
+</head>
+
+<body>
+  <div id="main">
+
+    <div id="content">
+
+      <div id="column2">
+<!-- **** INSERT PAGE CONTENT HERE **** -->
+        <h1>The real Desktop on Raspberry Pi</h1>
+
+        <h4>The real Desktop on Raspberry Pi</h4>
+        29 April, 2016<br><br>
+<!--           <div style="float:left"> -->
+            <p><b>Time for ARM Desktop ?</b><br>Is finally the right time of the affordable Desktop on ARM architecture ? There is a new Raspberry Pi-3 board at $35, which comes with 1.2GHz 64-bit quad-core ARM Cortex-A53 CPU, Wireless LAN and Bluetooth devices integrated, released by the <a href="https://www.raspberrypi.org/">Raspberry Pi foundation</a> several weeks ago. I have tested the Pi-3 with the most recent version 1.4.9.2 of the <a href="https://www.q4os.org/">Q4OS operating system</a>, which features Raspberry Pi desktop eddition. Q4OS for Raspberry Pi is based on Raspbian distro and is optimized for the desktop application. One can easily setup a tiny workstation with well known desktop applications like Firefox, LibreOffice, Thunderbird and so on. The Raspbian repository with its huge software base is accessible via Synaptic package manager.
+<br><br><a href="scr0.jpg"><img src="scr0.jpg" align="middle" width="300" height="200" /></a>
+
+<br><br><br>
+<b>Preparing</b><br>First, I have loaded bootable Kingston 32GB micro SDHC Card with <a href="https://www.q4os.org/downloads1.html">Q4OS 1.4.9.2 operating system</a>, following <a href="https://www.q4os.org/dqa010.html">installation instructions</a>. As finished, Raspberry Pi enclosed in the case and attached with network ethernet cable, I eagerly plugged USB power on and waited for boot. All went well, and the login screen has appeared in a few seconds, wov Raspberry Pi-3 is really fast ! Login as 'Pi' user with password 'raspberry', feeling the Raspbian distro under the hood. The first login procedure included 'change password' prompt, language selection and resizing the basic partition to fill entire space of the SD card. The last question bids user to select 'Desktop profile' - predefined set of applications to install.
+I have selected the 'Basic' desktop profile as a starting point, it says:<br><i>"Starting configuration for users who want to install desktop applications of their choice. The Basic Q4OS Desktop with common utilities, system tools and libraries."</i><br>Downloading about 180MB of software and installing the profile has taken about 20 minutes.
+<br><br><a href="scr1.png"><img src="scr1.png" align="middle" width="300" height="200" /></a>
+
+<br><br><br>
+<b>First impressions</b><br>Once the Basic profile has been applied, Q4OS desktop comes being opened with Welcome dialog in the middle of the screen. I noticed the speed and responsivity on the first touch, very pleasant experience. I was mostly curious about RAM usage, so I have ran 'htop' taskmanager in terminal. The outcome has been amazing, 'htop' reports just 93MB of RAM utilized ! Well, what about disk space ? Command 'df -h' shows 1.7GB disk space occupied, not bad for the full desktop installed, isn't it ?<br>Another interesting feature worth noting is the default double panel Start menu named 'Bourbon'. It is quite intuitive, convenient and, as far as I know, very different from other comparable menus from other Linux distributions.
+<br><br><a href="scr5.png"><img src="scr5.png" align="middle" width="300" height="200" /></a>
+
+<br><br><br>
+<b>Setup</b><br>Connecting to the Wifi network is a fairly standard affair. I have clicked on the network icon in the system tray and select the network. Users will need to enter a password in the connection wizard, if the WiFi network requires one. The next step is to configure Raspberry Pi with terminal command 'sudo raspi-config', I have set timezone and tried to enable experimental OpenGL hardware acceleration driver. Unfortunately, the OpenGL hardware acceleration doesn't work properly so far. According to post-install recommendations in Q4OS <a href="https://www.q4os.org/dqa010.html">installation instructions</a>, I have proceeded terminal commands 'sudo apt update &amp;&amp; sudo apt dist-upgrade' for system to be updated. Finally, I have entered Q4OS Software Centre from the Start menu and install Synaptic package manager and other desired desktop applications.
+<br><br><a href="scr3.png"><img src="scr3.png" align="middle" width="300" height="200" /></a>
+<br><br><a href="scr2.png"><img src="scr2.png" align="middle" width="300" height="200" /></a>
+
+<br><br><br>
+<b>Summary</b><br>Raspberry Pi-3 is really fast, Q4OS desktop is highly responsive within, and the performance is astounding. There were no crashes and all worked reliably, as expected. It is really getting closer to the true Desktop experience and the system seems to be very useful and intuitive. The bluetooth device is functional, but unfortunately it's not available out of the box, needs to be configured via command line tool 'bluetoothctl' or 'blueman' package has to be installed and configured. The Firefox package is in version 38, based on the Iceweasel from Raspbian repositories, hopefully Q4OS devs will update it to be more recent in the future. So, is finally the right time of the Desktop on ARM architecture ? Despite some small flaws, we can daringly say, Yes it is !
+<br><br><a href="scr4.png"><img src="scr4.png" align="middle" width="300" height="200" /></a>
+
+<br><br><br>
+<b>Components used</b>
+<ul>
+<li>Raspberry Pi-3 model B</li>
+<li>Kingston Micro SDHC 32GB, class 10UHS-I</li>
+<li>Raspberry Pi Case, mod-B</li>
+</ul>
+</p>
+<!-- **** PAGE CONTENT END **** -->
+      </div> <!--id="column2"-->
+
+    </div> <!--id="content"-->
+
+  </div>
+</body>
+</html>

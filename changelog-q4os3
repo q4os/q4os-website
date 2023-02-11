@@ -1,0 +1,981 @@
+=========================================================================
+2022-04-20 ; firefox (99.0~mozillabinaries-q4os3.1) ; Q4OS_3.15_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/99.0/releasenotes/
+=========================================================================
+2021-09-29 ; q4os-base (3.19.2-a1) ; Q4OS_3.15_Centaurus
+  * Bugfix: Small fonts in Plasma GTK2 applications.
+  * Fix GTK3 applications look in Trinity.
+=========================================================================
+2021-09-29 ; lookswitcher (3.7-a1) ; Q4OS_3.15_Centaurus
+  * Bugfix: Spring theme doesn't set wallpaper.
+  * Bugfix: Small fonts in Plasma GTK2 applications.
+  * Fix GTK3 applications look in Trinity.
+=========================================================================
+2021-09-29 ; q4os-wallpapers (3.2.1-a1) ; Q4OS_3.15_Centaurus
+  * Add new wallpapers.
+  * Remove some obsolete wallpapers.
+=========================================================================
+2021-09-27 ; q4os-keyrings (3.4.1-a1) ; Q4OS_3.15_Centaurus
+  * Keyring added for Sofmaker Office.
+  * Keyring updated for Opera and MX Linux.
+=========================================================================
+2021-08-04 ; q4os-sw-profiler-data (3.9.2-a1) ; Q4OS_3.15_Centaurus
+  * Add "pulseaudio-module-bluetooth" package to the Full profile.
+  * Removed package "firmware-samsung"
+  * Removed package "bluez-firmware"
+=========================================================================
+2021-07-28 ; install-media (3.15-r1) ; Q4OS_3.15_Centaurus
+*** Release: q4os-3.15-pinebookpro.r1.zip
+  * First stable release of Q4OS for Pinebook Pro
+=========================================================================
+2021-07-22 ; q4os-swcentre-data (3.10.1-a1) ; Q4OS_3.15_Centaurus
+  * Added "q4os-youtube-downloader" to the applications list.
+  * Removed X2Go client/server entries.
+=========================================================================
+2021-07-22 ; q4os-youtube-downloader (3.1-a1) ; Q4OS_3.15_Centaurus
+  * Added "q4os-youtube-downloader" package to repositories.
+=========================================================================
+2021-07-15 ; q4os-base (3.19.1-a1) ; Q4OS_3.15_Centaurus
+  * Disable Password-Login / Session Lock after Suspend-to-RAM,
+    see https://www.q4os.org/forum/viewtopic.php?id=3665
+  * Fix X2Go client for Trinity remote sessions,
+    added /usr/local/bin/starttrinity script.
+  * Bunch of fixes and improvements backported from Q4OS Gemini.
+=========================================================================
+2021-07-15 ; q4os-keyrings (3.3.1-a1) ; Q4OS_3.15_Centaurus
+  * Keyring added for Vivaldi.
+  * Keyring updated for Skype, Teamviewer, Etcher, MX Linux.
+=========================================================================
+2021-06-30 ; q4os-desktop (3.15.1-n1) ; Q4OS_3.15_Centaurus
+  * Added required dependencies.
+  * Increase version number.
+=========================================================================
+2021-06-29 ; install-media (3.15-r1) ; Q4OS_3.15_Centaurus
+*** Release: q4os-3.15-x64.r1.iso
+*** Release: q4os-3.15-x64-tde.r1.iso
+  * Copy wireless network connections to the target system.
+  * Debian Buster 10.10 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Cumulative upgrade.
+=========================================================================
+2021-06-28 ; install-media (3.14-r5) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-x64-instcd.r5.iso
+*** Release: q4os-3.14-i386-instcd.r5.iso
+ ** Bugfix: installer fails in low memory mode.
+  * Debian Buster 10.10 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Cumulative upgrade.
+=========================================================================
+2021-05-01 ; q4os-base (3.18.1-a1) ; Q4OS_3.14_Centaurus
+  * Update the default web browser selection script.
+=========================================================================
+2021-05-01 ; q4os-sw-profiler-data (3.9.1-a1) ; Q4OS_3.14_Centaurus
+  * Add "kcharselect" package to the Plasma and Trinity Full profile.
+=========================================================================
+2021-05-01 ; q4os-swcentre-data (3.9.1-a1) ; Q4OS_3.14_Centaurus
+  * Replace Firefox with Firefox ESR.
+=========================================================================
+2021-04-15 ; q4os-base (3.17.4-a1) ; Q4OS_3.14_Centaurus
+  * Update TDE printing system to use "system-config-printer" tool.
+=========================================================================
+2021-04-15 ; q4os-sw-profiler-data (3.8.5-a1) ; Q4OS_3.14_Centaurus
+  * Add Gwenview package to the full Plasma profile.
+  * Add "system-config-printer" to the full Trinity profile.
+=========================================================================
+2021-04-15 ; q4os-i18n (3.7.1-a1) ; Q4OS_3.14_Centaurus
+  * Updated Italian translations, thanks to Fiflagar L.
+=========================================================================
+2021-04-01 ; firefox (87.0~mozillabinaries-q4os.1) ; Q4OS_3.14_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/87.0/releasenotes/
+=========================================================================
+2021-03-30 ; q4os-sw-profiler-data (3.8.4-a1) ; Q4OS_3.14_Centaurus
+  * Move "oxygen-icon-theme" to the TDE section.
+=========================================================================
+2021-03-18 ; install-media (3.14-r4) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-x64-instcd.r4.iso
+*** Release: q4os-3.14-i386-instcd.r4.iso
+ ** Bugfix: grub-pc bug, see https://sourceforge.net/p/q4os/tickets/148/
+  * Cumulative upgrade.
+=========================================================================
+2021-03-17 ; install-media (3.14-r4) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-rpi.r4.zip, Q4OS 3.14 Centaurus for Raspberry Pi.
+  * Cumulative upgrade.
+=========================================================================
+2021-03-16 ; q4os-winsetup (3.14-r4) ; Q4OS_3.14_Centaurus
+*** Release: q4os-winsetup.zip, version 3.14-r4
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.14-r4
+ ** Bugfix: grub-pc bug, see https://sourceforge.net/p/q4os/tickets/148/
+  * Disable os-prober for legacy bios installations.
+  * Purge unneeded packages, shim, grub-efi and related.
+  * Cumulative upgrade.
+=========================================================================
+2021-03-14 ; install-media (3.14-r4) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-x64.r4.iso
+*** Release: q4os-3.14-x64-tde.r4.iso
+ ** Bugfix: grub-pc bug, see https://sourceforge.net/p/q4os/tickets/148/
+  * Added Virtualbox guest additions support to live media.
+  * Make root password available to set.
+  * Rework hook2.sh, add diversion for "update-secureboot-policy".
+  * Cumulative upgrade.
+=========================================================================
+2021-03-14 ; q4os-base (3.17.3-a1) ; Q4OS_3.14_Centaurus
+ ** Bugfix: grub-pc bug, see https://sourceforge.net/p/q4os/tickets/148/
+  * Preconfigure debconf for "grub-pc" and "shim-signed-common" packages
+    within the first boot script and at the "q4os-base" upgrade.
+  * Script "print_package_version" enhanced.
+=========================================================================
+2021-03-12 ; q4os-swcentre-data (3.8.3-a1) ; Q4OS_3.14_Centaurus
+  * Package "vboxgutils-q4" replaced with "q4os-vboxgutils".
+=========================================================================
+2021-03-12 ; q4os-vboxgutils (3.1-a1) ; Q4OS_3.14_Centaurus
+  * Replace "vboxgutils-q4" package.
+  * Multiple improvements compared to the "vboxgutils-q4" package.
+  * Establish own dedicated repository.
+=========================================================================
+2021-03-11 ; firefox (86.0.1~mozillabinaries-q4os.1) ; Q4OS_3.14_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/86.0.1/releasenotes/
+=========================================================================
+2021-03-07 ; q4os-sw-profiler-data (3.8.3-a1) ; Q4OS_3.14_Centaurus
+  * Added "ffmpegthumbs" to the Plasma full profile.
+  * Added "debconf-kde-helper" to the Plasma full profile.
+=========================================================================
+2021-03-02 ; q4os-base (3.17.1-a1) ; Q4OS_3.14_Centaurus
+  * Atom text editor added into qrepoadd tool.
+  * Mxtools repository added into qrepoadd tool.
+  * Update pkexec for Trinity to check for Policykit agent.
+=========================================================================
+2021-03-02 ; q4os-keyrings (3.2.2-a1) ; Q4OS_3.14_Centaurus
+  * Added GPG keys for Atom text editor.
+=========================================================================
+2021-02-17 ; install-media (3.14-r2) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-x64.r2.iso
+*** Release: q4os-3.14-x64-tde.r2.iso
+  * Fix possible touchpad misbehaviour.
+=========================================================================
+2021-02-16 ; install-media (3.14-r1) ; Q4OS_3.14_Centaurus
+*** Release: q4os-3.14-x64.r1.iso
+*** Release: q4os-3.14-x64-tde.r1.iso
+  * Debian Buster 10.8 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Cumulative upgrade.
+=========================================================================
+2021-02-15 ; q4os-desktop (3.14.1-n1) ; Q4OS_3.14_Centaurus
+  * Increase version number.
+=========================================================================
+2021-02-15 ; q4os-base (3.16.1-a1) ; Q4OS_3.13_Centaurus
+  * Bugfix - Modify "qinst-vboxguest.sh" script for Virtualbox additions
+    to install for older kernels as well.
+  * Bugfix - Function "normalize_repo_line" doesn't work for
+    "microsoft-edge" repository.
+  * Improve "uname_lxhdrs.sh" script.
+  * Add Google chrome to qrepoadd tool.
+  * New script to make the default browser for TDE and Plasma.
+=========================================================================
+2021-02-08 ; q4os-base (3.15.1-a1) ; Q4OS_3.13_Centaurus
+  * Added "q4hplogo" icon.
+  * Updated various repositories for the "qprepoadd" tool.
+=========================================================================
+2021-02-08 ; q4os-keyrings (3.2.1-a1) ; Q4OS_3.13_Centaurus
+  * Updated various GPG keys.
+=========================================================================
+2021-02-08 ; q4os-swcentre-data (3.8.2-a1) ; Q4OS_3.13_Centaurus
+  * Dedicated icon for "hplip-gui".
+=========================================================================
+2021-02-05 ; firefox (85.0~mozillabinaries-q4os.1) ; Q4OS_3.13_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/85.0/releasenotes/
+=========================================================================
+2021-02-03 ; q4os-winsetup (3.13-r1) ; Q4OS_3.13_Centaurus
+*** Release: q4os-winsetup.zip, version 3.13-r1
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.13-r1
+  * Restructure shutdown sequence
+  * Backport multiple improvements and fixes from testing version.
+  * Cumulative upgrade.
+=========================================================================
+2020-12-23 ; firefox (84.0.1~mozillabinaries-q4os.1) ; Q4OS_3.13_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/84.0.1/releasenotes/
+=========================================================================
+2020-12-19 ; install-media (3.13-r1) ; Q4OS_3.13_Centaurus
+*** Release: q4os-3.13-x64.r1.iso
+*** Release: q4os-3.13-x64-tde.r1.iso
+  * Debian Buster 10.7 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Grub install timeouts has been increased in Calamares.
+  * Bugfix - Calamares created some system groups with GID>1000.
+  * Cumulative upgrade.
+=========================================================================
+2020-12-10 ; q4os-swcentre-data (3.8.1-a1) ; Q4OS_3.12_Centaurus
+  * Added "hplip-gui", Hewlett-Packard drivers to the applications list.
+=========================================================================
+2020-12-10 ; q4os-sw-profiler-data (3.8.2-a1) ; Q4OS_3.12_Centaurus
+  * Removed "snapd" package completely.
+=========================================================================
+2020-12-07 ; q4os-base (3.14.5-a1) ; Q4OS_3.12_Centaurus
+  * Bugfix - Hplip required root password.
+  * First user report script improved.
+  * First boot script to detect possible Wubi installation directory.
+=========================================================================
+2020-12-03 ; firefox (83.0~mozillabinaries-q4os.1) ; Q4OS_3.12_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/83.0/releasenotes/
+=========================================================================
+2020-12-02 ; q4os-winsetup (3.12-r5) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.12-r5
+  * Fixed apparmor profiles.
+=========================================================================
+2020-11-25 ; q4os-winsetup (3.12-r4) ; Q4OS_3.12_Centaurus
+*** Release: q4os-winsetup.zip, version 3.12-r4
+  * Backport multiple improvements and fixes from testing version.
+=========================================================================
+2020-11-25 ; q4os-winsetup (3.12-r4) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.12-r4
+  * Backport multiple improvements and fixes from testing version.
+  * Cumulative upgrade.
+=========================================================================
+2020-11-10 ; firefox (82.0.3~mozillabinaries-q4os.1) ; Q4OS_3.12_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/82.0.3/releasenotes/
+=========================================================================
+2020-10-24 ; firefox (82.0~mozillabinaries-q4os.1) ; Q4OS_3.12_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/82.0/releasenotes/
+=========================================================================
+2020-10-07 ; install-media (3.12-r4) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-x64.r4.iso
+*** Release: q4os-3.12-x64-tde.r4.iso
+  * Cumulative upgrade.
+  * Bugfix - show install icon on desktop live media for all languages.
+=========================================================================
+2020-10-07 ; q4os-base (3.14.4-a1) ; Q4OS_3.12_Centaurus
+  * Ensure to truncate the .xsession_errors log file on each login.
+  * Bugfix - show install icon on desktop live media for all languages.
+=========================================================================
+2020-10-03 ; q4os-winsetup (3.12-r3) ; Q4OS_3.12_Centaurus
+*** Release: q4os-winsetup.zip, version 3.12-r3
+  * Added "fixefiboot.bat" into the installer, an easy to use script to
+    fix UEFI boot manager.
+  * Modify all version strings to 3.0.
+  * Bugfix: a correct warning message on ntfs hibernation.
+=========================================================================
+2020-10-02 ; firefox (81.0.1~mozillabinaries-q4os.1) ; Q4OS_3.12_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/81.0.1/releasenotes/
+=========================================================================
+2020-09-17 ; q4os-devpack (3.3.1-a1) ; Q4OS_3.12_Centaurus
+  * Updated "checkinstall" integrated package.
+  * Added optional "Priority" and "Essential" properties for a package to
+    create.
+=========================================================================
+2020-09-07 ; install-media (3.12-r3) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-x64.r3.iso
+*** Release: q4os-3.12-rpi.r3.zip, Q4OS 3.12 Centaurus for Raspberry Pi.
+  * Display a message for NVidia and Virtualbox guest live media too.
+  * Bugfix - Japanese and Chinese language wasn't installed at the first
+    boot.
+=========================================================================
+2020-09-06 ; firefox (80.0.1~mozillabinaries-q4os.1) ; Q4OS_3.12_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/80.0.1/releasenotes/
+=========================================================================
+2020-09-06 ; install-media (3.12-r3) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-x64-tde.r3.iso
+*** Release: q4os-3.12-x64-instcd.r3.iso
+*** Release: q4os-3.12-i386-instcd.r3.iso
+  * Display a message for NVidia and Virtualbox guest live media too.
+  * Bugfix - Japanese and Chinese language wasn't installed at the first
+    boot.
+=========================================================================
+2020-09-06 ; q4os-base (3.14.3-a1) ; Q4OS_3.12_Centaurus
+  * Bugfix - Japanese and Chinese language wasn't installed at the first
+    boot.
+=========================================================================
+2020-09-02 ; install-media (3.12-r2) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-rpi.r2.zip, Q4OS 3.12 Centaurus for Raspberry Pi.
+  * Cumulative upgrade.
+  * Clean packagekit configuration to fix slow booting in some cases.
+=========================================================================
+2020-09-01 ; install-media (3.12-r1) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-x64-instcd.r1.iso
+*** Release: q4os-3.12-i386-instcd.r1.iso
+  * Debian Buster 10.5 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Cumulative upgrade.
+  * Improved NVidia detection upon install.
+=========================================================================
+2020-08-31 ; install-media (3.12-r1) ; Q4OS_3.12_Centaurus
+*** Release: q4os-3.12-x64.r1.iso
+*** Release: q4os-3.12-x64-tde.r1.iso
+  * Debian Buster 10.5 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * Cumulative upgrade.
+  * Added "q4os-debonaire-plasma-theme" to Plasma live media.
+  * Improved NVidia detection upon install.
+=========================================================================
+2020-08-31 ; q4os-desktop (3.12.1-n1) ; Q4OS_3.12_Centaurus
+  * Increase version number.
+=========================================================================
+2020-08-27 ; firefox (80.0~mozillabinaries-q4os.1) ; Q4OS_3.11_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/80.0/releasenotes/
+=========================================================================
+2020-08-26 ; q4os-desktop (3.11.4-n1) ; Q4OS_3.11_Centaurus
+  * Added "xdg-user-dirs" to dependencies.
+=========================================================================
+2020-08-26 ; q4os-desktop (3.11.4-n1-rpi) ; Q4OS_3.11_Centaurus
+  * Added "xdg-user-dirs" to dependencies.
+=========================================================================
+2020-08-25 ; plasma-themes-yeyushengfan (1.20200824-a1) ; Q4OS_3.11_Centaurus
+  * Follow upstream updates, icons and theme polishing.
+=========================================================================
+2020-08-18 ; q4os-sw-profiler-data (3.8.1-a1) ; Q4OS_3.11_Centaurus
+  * Added "acpi-support" to the full profile.
+=========================================================================
+2020-08-18 ; q4os-desktop (3.11.3-n1) ; Q4OS_3.11_Centaurus
+  * Added "acpi-support-base" to recommended packages.
+=========================================================================
+2020-08-17 ; firefox (79.0~mozillabinaries-q4os.1) ; Q4OS_3.11_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/79.0/releasenotes/
+=========================================================================
+2020-07-28 ; plasma-themes-yeyushengfan (1.20200728-a1) ; Q4OS_3.11_Centaurus
+  * Removal of fullscreen previews.
+=========================================================================
+2020-07-19 ; plasma-themes-yeyushengfan (1.20200719-a1) ; Q4OS_3.11_Centaurus
+  * Redundancies removal.
+=========================================================================
+2020-07-18 ; q4os-swcentre-data (3.7.1-a1) ; Q4OS_3.11_Centaurus
+  * Added "lookswitcher-plasma" to the applications list.
+=========================================================================
+2020-07-18 ; lookswitcher-plasma (3.1-a1) ; Q4OS_3.11_Centaurus
+  * Added package into repositories.
+=========================================================================
+2020-07-18 ; q4os-base (3.14.2-a1) ; Q4OS_3.11_Centaurus
+  * Set XDG environment variables at login time for Plasma splash screen
+    to read settings from the correct directory.
+=========================================================================
+2020-07-17 ; q4os-debonaire-plasma-theme (4.2-a1) ; Q4OS_3.11_Centaurus
+  * Added package into repositories.
+=========================================================================
+2020-07-16 ; plasma-themes-yeyushengfan (1.20200716-a1) ; Q4OS_3.11_Centaurus
+  * Plasma layout includes tiled menu and present windows applets.
+=========================================================================
+2020-07-16 ; plasma-plasmoids-presentwindows (1.20200715-a1) ; Q4OS_3.11_Centaurus
+  * Added package into repositories.
+=========================================================================
+2020-07-16 ; plasma-plasmoids-tiledmenu (1.20200715-a1) ; Q4OS_3.11_Centaurus
+  * Added package into repositories.
+=========================================================================
+2020-07-11 ; plasma-themes-yeyushengfan (1.20200710-a1) ; Q4OS_3.11_Centaurus
+  * Added cursor themes.
+=========================================================================
+2020-07-09 ; plasma-themes-yeyushengfan (1.20200708-a1) ; Q4OS_3.11_Centaurus
+  * Added "plasma-themes-yeyushengfan" package into repositories.
+=========================================================================
+2020-06-30 ; firefox (78.0~mozillabinaries-q4os.1) ; Q4OS_3.11_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/78.0/releasenotes/
+=========================================================================
+2020-06-28 ; install-media (3.11-r2) ; Q4OS_3.11_Centaurus
+*** Release: q4os-3.11-x64-instcd.r2.iso
+*** Release: q4os-3.11-i386-instcd.r2.iso
+  * Cumulative upgrade.
+  * More firmware added to install media.
+=========================================================================
+2020-06-22 ; install-media (3.11-r2) ; Q4OS_3.11_Centaurus
+*** Release: q4os-3.11-x64.r2.iso
+*** Release: q4os-3.11-x64-tde.r2.iso
+  * Cumulative upgrade.
+  * More firmware added to install media.
+=========================================================================
+2020-06-22 ; q4os-desktop-trinity (3.2.2-n1) ; Q4OS_3.11_Centaurus
+  * Added kmilo-trinity to recommends.
+=========================================================================
+2020-06-22 ; q4os-sw-profiler-data (3.7.1-a1) ; Q4OS_3.11_Centaurus
+  * Full profile, TDE desktop - xfburn replaces brasero.
+=========================================================================
+2020-06-22 ; q4os-swcentre-data (3.6.2-a1) ; Q4OS_3.11_Centaurus
+  * Removed Brasero, added xfburn for TDE and k3b for Plasma.
+  * Added Dreamchess to the applications list.
+=========================================================================
+2020-06-16 ; install-media (3.11-r1) ; Q4OS_3.11_Centaurus
+  * Release: q4os-3.11-pinebookpro.r1-testing3.zip, Q4OS 3.11 Centaurus
+=========================================================================
+2020-06-16 ; q4os-pine64-2 (3.1.1-a2) ; Q4OS_3.11_Centaurus
+  * Added "kmilo-trinity" to recommended packages.
+  * Added "q4os-desktop" to Pre-Depends.
+  * Fix removal of the "/root/.not_logged_in_yet" file at the first boot.
+=========================================================================
+2020-06-07 ; firefox (77.0.1~mozillabinaries-q4os.1) ; Q4OS_3.11_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/77.0.1/releasenotes/
+=========================================================================
+2020-06-04 ; firefox (77.0~mozillabinaries-q4os.1) ; Q4OS_3.11_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/77.0/releasenotes/
+=========================================================================
+2020-05-29 ; q4os-desktop-trinity (3.2.1-n1) ; Q4OS_3.11_Centaurus
+  * Added "kcontrol-autostart-trinity" to recommended packages.
+  * Removed unused dependencies present in the "q4os-desktop" package.
+=========================================================================
+2020-05-23 ; q4os-rpi (3.1.1-a1) ; Q4OS_3.11_Centaurus
+  * New package to treat Raspbian specifics.
+=========================================================================
+2020-05-21 ; q4os-desktop-plasma (3.1.3-a1) ; Q4OS_3.11_Centaurus
+  * Added "q4os-debonaire-plasma-theme" package to recommended packages.
+=========================================================================
+2020-05-19 ; install-media (3.11-r1) ; Q4OS_3.11_Centaurus
+  * Release: q4os-3.11-pinebookpro.r1-testing2.zip, Q4OS 3.11 Centaurus
+  * Bugfix - full desktop profile doesn't install due to root password
+    expiry.
+  * Added "exfat-fuse" package and dependencies.
+  * Other minor fixes and polishing.
+=========================================================================
+2020-05-19 ; q4os-base (3.14.1-a1) ; Q4OS_3.11_Centaurus
+  * Removed Pine64 support, as moved to a dedicated "q4os-pine64-2"
+    package.
+  * Bugfix - unset LC_ALL global variable in Q4OS scripts, as it
+    could override desired locales.
+=========================================================================
+2020-05-19 ; q4os-pine64-2 (3.1.1-a1) ; Q4OS_3.11_Centaurus
+  * Added the initial Pinebook Pro support.
+=========================================================================
+2020-05-16 ; install-media (3.11-r1) ; Q4OS_3.11_Centaurus
+*** Release: q4os-3.11-rpi.r1.zip, Q4OS 3.11 Centaurus for Raspberry Pi.
+*** Release: q4os-3.11-pinebookpro.r1-testing1.zip, Q4OS 3.11 Centaurus
+    testing for Pinebook Pro.
+  * Cumulative upgrade.
+  * The official release notes https://www.q4os.org/blog.html#news200501
+=========================================================================
+2020-05-14 ; q4os-devpack (3.2.1-a1) ; Q4OS_3.11_Centaurus
+  * Added scripts for QT3 to QT5 sources conversion.
+  * Added "pre-depends" possible entries for a package to create.
+=========================================================================
+2020-05-13 ; install-media (3.11-r1) ; Q4OS_3.11_Centaurus
+*** Release: q4os-3.11-x64.r1.iso
+*** Release: q4os-3.11-x64-tde.r1.iso
+*** Release: q4os-3.11-x64-instcd.r1.iso
+*** Release: q4os-3.11-i386-instcd.r1.iso
+  * Cumulative upgrade.
+  * Debian Buster 10.4 release, fixes and updates,
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+  * First boot screen setup for Plasma desktop procedure tuned, as it
+    didn't save sometimes.
+  * Bugfix - keyboard variant doesn't apply after installation for
+    Plasma.
+  * Keyboard layout configuration procedure for Trinity desktop reworked.
+  * Depreciate "q4os_system.qrg" configuration file.
+  * The official release notes https://www.q4os.org/blog.html#news200501
+=========================================================================
+2020-05-13 ; q4os-winsetup (3.11-r1) ; Q4OS_3.11_Centaurus
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.11-r1
+  * Cumulative upgrade.
+  * The official release notes https://www.q4os.org/blog.html#news200501
+=========================================================================
+2020-05-13 ; q4os-desktop (3.11.1-n1) ; Q4OS_3.11_Centaurus
+  * Increase version number.
+=========================================================================
+2020-05-10 ; q4os-sw-profiler-data (3.6.1-a1) ; Q4OS_3.10_Centaurus
+  * Remove Smtube application as buggy in Debian/Raspbian Buster
+  * Remove Vulkan software from Raspbian Buster
+=========================================================================
+2020-05-07 ; firefox (76.0~mozillabinaries-q4os.1) ; Q4OS_3.10_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/76.0/releasenotes/
+=========================================================================
+2020-04-28 ; q4os-ipcodecs (3.3-a1) ; Q4OS_3.10_Centaurus
+  * Remove "libmp4v2-2" dependency.
+=========================================================================
+2020-04-28 ; q4os-vlc (3.3-a1) ; Q4OS_3.10_Centaurus
+  * Remove "libmp4v2-2" dependency.
+=========================================================================
+2020-04-28 ; q4os-base (3.13.1-a1) ; Q4OS_3.10_Centaurus
+  * Fix parameters for some scripts to handle quoted arguments.
+  * Move "install_type" record from the "q4os_system.qrg" to "q4base.conf"
+    configfile.
+  * Tune first boot scripts.
+  * Split Gemini TDE repositories.
+=========================================================================
+2020-04-23 ; q4os-swcentre-data (3.5.1-a1) ; Q4OS_3.10_Centaurus
+  * Added Palemoon installer.
+  * Added a couple of other applications.
+=========================================================================
+2020-04-23 ; q4os-palemoon (3.2-a1) ; Q4OS_3.10_Centaurus
+  * Added Steven Pusser official repositories and keyring.
+=========================================================================
+2020-04-19 ; q4os-swcentre (3.6.1-a1) ; Q4OS_3.10_Centaurus
+  * Uninstall procedure rewritten, make use of kdialog wrapper for
+    Plasma.
+  * Disable dcop registration.
+=========================================================================
+2020-04-19 ; q4os-api (3.3.1-a1) ; Q4OS_3.10_Centaurus
+  * Added kdialog wrapper.
+  * Removed useless global variable and make it as parameter in pty.
+  * Added functions "package_installed2" and "check_sudo_rights2" to
+    q4l2_libs1.
+  * Fixed header in test01.c.
+=========================================================================
+2020-04-16 ; q4os-chrome (3.2-a1) ; Q4OS_3.10_Centaurus
+  * Google keyring updated.
+=========================================================================
+2020-04-16 ; q4os-ipcodecs (3.2-a1) ; Q4OS_3.10_Centaurus
+  * Add "libdvdread8" and "kubuntu-restricted-addons" dependencies.
+=========================================================================
+2020-04-16 ; q4os-vlc (3.2-a1) ; Q4OS_3.10_Centaurus
+  * Add "libdvdread8" dependency.
+=========================================================================
+2020-04-14 ; q4os-swcentre-data (3.4.1-a1) ; Q4OS_3.10_Centaurus
+  * New applications added to the featured list.
+=========================================================================
+2020-04-14 ; q4os-cpuq (3.2.1-a1) ; Q4OS_3.9_Centaurus
+  * Splash screen on startup added.
+  * Fix desktop report for Plasma.
+=========================================================================
+2020-04-14 ; q4os-cpuq5 (3.2.1-a1) ; Q4OS_3.9_Centaurus
+  * Splash screen on startup added.
+  * Fix desktop report for Plasma.
+=========================================================================
+2020-04-05 ; q4os-swcentre (3.5.1-a1) ; Q4OS_3.10_Centaurus
+ ** Added search capability.
+ ** New type of installable applications from repositories.
+  * New splashscreen throughout start.
+  * Code cleanup, various fixes and other improvements.
+=========================================================================
+2020-04-05 ; q4os-swcentre-data (3.3.1-a1) ; Q4OS_3.10_Centaurus
+  * Added more applications to the featured list.
+=========================================================================
+2020-03-29 ; palemoon (28.9.0.2-1) ; Q4OS_3.10_Centaurus
+  * The complete relase notes https://www.palemoon.org/releasenotes.shtml
+=========================================================================
+2020-03-24 ; q4os-tde-qtplugin (3.6.1-a1) ; Q4OS_3.10_Centaurus
+  * Remove LXQt dependecies from q4os-tde-qtplugin for LXQt not to be
+    pulled into the Trinity desktop.
+  * Remove legacy workaround, libfm-modules dependency to fix crashes of
+    qpdfview open file dialog.
+=========================================================================
+2020-03-22 ; q4os-base (3.12.1-a1) ; Q4OS_3.10_Centaurus
+  * Improve the first boot sequence to properly detect and adjust live
+    systems.
+  * New script "get_first_user.sh" to acquire system user. Make various
+    scripts use the "get_first_user.sh" script.
+=========================================================================
+2020-03-22 ; q4os-desktop-plasma (3.1.2-a1) ; Q4OS_3.10_Centaurus
+  * Removed "krusader" from recommended packages list.
+  * Modify default panel templates for kubuntu themes in postinst script.
+=========================================================================
+2020-02-27 ; install-media (3.10-r3) ; Q4OS_3.10_Centaurus
+*** Release: q4os-3.10-rpi.r3.zip, Q4OS 3.10 Centaurus for Raspberry Pi.
+=========================================================================
+2020-02-20 ; firefox (73.0.1~mozillabinaries-q4os.1) ; Q4OS_3.10_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/73.0.1/releasenotes/
+=========================================================================
+2020-02-14 ; firefox (73.0~mozillabinaries-q4os.1) ; Q4OS_3.10_Centaurus
+  * The complete release notes:
+    https://www.mozilla.org/en-US/firefox/73.0/releasenotes/
+=========================================================================
+2020-02-13 ; install-media (3.10-r0-testing1) ; Q4OS_3.10_Centaurus
+ ** Release: q4os-3.10-rpi.r0-testing1.zip, the first testing release
+    Q4OS 3 Centaurus for Raspberry Pi.
+=========================================================================
+2020-02-12 ; q4os-base (3.11.2-a1) ; Q4OS_3.10_Centaurus
+  * Unattended-upgrades first boot configuration moved to the systemd
+    "q4os_first_boot.service".
+  * Unattended-upgrades first boot configuration modified to be less
+    interfering.
+=========================================================================
+2020-02-12 ; q4os-swcentre-data (3.2.1-a1) ; Q4OS_3.10_Centaurus
+  * Applications list adjusted for Raspbian.
+=========================================================================
+2020-02-12 ; q4os-sw-profiler-data (3.5.4-a1) ; Q4OS_3.10_Centaurus
+  * Removed "clementine" package from the Raspbian full profile, as it's
+    not present in Rasbian Buster distribution.
+=========================================================================
+2020-02-06 ; q4os-base (3.11.1-a1) ; Q4OS_3.10_Centaurus
+  * Bugfix: Trinity i386 polkit-agent doesn't start. Remove
+    "polkit-tde-authentication-agent-1.desktop" autostart link. Deal it
+    with in the "q4os-debfxs" package.
+  * Bugfix: Keyboard variant doesn't apply after installation for Plasma.
+  * Updated keyboard layout configuration procedure for Trinity desktop.
+  * First boot screen setup procedure for Plasma tuned, as it didn't save
+    in KVM.
+  * Disable Plasma kwallet globally, configurable at the user level.
+=========================================================================
+2020-02-06 ; q4os-debfxs (3.4.1-a1) ; Q4OS_3.10_Centaurus
+  * Bugfix: Trinity i386 polkit-agent doesn't start, make autostarted
+    "polkit-tde2-authentication-agent-1.desktop" architecture dependent.
+=========================================================================
+2020-02-06 ; q4os-sw-profiler-data (3.5.3-a1) ; Q4OS_3.10_Centaurus
+  * Added "ark" to Plasma basic and Plasma full profile.
+  * Removed "krusader" from Plasma basic profile.
+=========================================================================
+2020-02-05 ; q4os-winsetup (3.10-r2.2) ; Q4OS_3.10_Centaurus
+  * Zipped installer has been made available for download.
+=========================================================================
+2020-01-28 ; q4os-winsetup (3.10-r2.1) ; Q4OS_3.10_Centaurus
+  * Polished icons in exe installer.
+  * Built using Debian 10 buster development base.
+=========================================================================
+2020-01-26 ; twin-style-opak (1.0-a1) ; Q4OS_3.10_Centaurus
+  * The first testing build.
+    Download: https://sourceforge.net/projects/q4os/files/packages/
+=========================================================================
+2020-01-23 ; palemoon (28.8.1+repack-1) ; Q4OS_3.10_Centaurus
+  * The complete relase notes https://www.palemoon.org/releasenotes.shtml
+=========================================================================
+2020-01-22 ; q4os-winsetup (3.10-r2) ; Q4OS_3.10_Centaurus
+*** Release: q4os-3.0-x64-loop.img.xz, version 3.10-r2
+  * Fix: Pass keyboard layout on the target system.
+  * Cumulative upgrade.
+=========================================================================
+2020-01-21 ; install-media (3.10-r2) ; Q4OS_3.10_Centaurus
+*** Release: q4os-3.10-x64.r2.iso
+*** Release: q4os-3.10-x64-tde.r2.iso
+*** Release: q4os-3.10-x64-instcd.r2.iso
+*** Release: q4os-3.10-i386-instcd.r2.iso
+  * Add Virtualbox additions autodetection, start installation
+    automatically for Plasma as well as for Trinity desktop.
+  * Make use of dedicated script for Virtualbox guest additions
+    setup.
+  * Write system keyboard layout for the "classic" install mode.
+=========================================================================
+2020-01-21 ; q4os-desktop (3.10.3-n1) ; Q4OS_3.10_Centaurus
+  * Added "rsyslog" to recommended packages.
+=========================================================================
+2020-01-21 ; q4os-base (3.10.1-a1) ; Q4OS_3.10_Centaurus
+ ** Bugfix: Plasma kcm_kscreen tool upon the first login didn't save
+    resolution as configured.
+ ** Bugfix: Intermittent Plasma wallpaper misconfiguration at the first
+    login.
+  * Bugfix: Plasma doesn't show keyboard layout applet at the first
+    login.
+  * Write keyboard configuration at the first boot only, if it has not
+    been written before.
+  * Include live media install hook logs into the "reportq4" tool
+  * Virtualbox guest additions install script updated, added more needed
+    build dependencies.
+  * Desktop profiler at the first boot running procedure optimized.
+  * Add generating of a default settings archive for Debian Bullseye.
+  * Cleanup, delete files not needed anymore.
+=========================================================================
+2020-01-21 ; q4os-keyrings (3.1.3-a1) ; Q4OS_3.10_Centaurus
+  * Anydesk apt keys update.
+=========================================================================
+2020-01-21 ; q4os-sw-profiler-data (3.5.2-a1) ; Q4OS_3.10_Centaurus
+  * Adjust profiles descriptions.
+=========================================================================
+2020-01-21 ; calamares (1:3.2.4-3.8) ; Q4OS_3.10_Centaurus
+  * Fix geoip based timezone detection.
+  * Write Q4OS keyboard configuration for layouts other then "us".
+  * Copy generated log files to target system.
+=========================================================================
+2020-01-12 ; q4os-desktop (3.10.2-n1) ; Q4OS_3.10_Centaurus
+  * Added "network-manager-tde, twin-trinity" dependencies.
+=========================================================================
+2020-01-10 ; q4os-anydesk (3.1-a2) ; Q4OS_3.10_Centaurus
+  * Keyring updated.
+=========================================================================
+2020-01-10 ; firefox (72.0.1~mozillabinaries-q4os.1) ; Q4OS_3.10_Centaurus
+  * See the complete release notes,
+    https://www.mozilla.org/en-US/firefox/72.0/releasenotes/
+    https://www.mozilla.org/en-US/firefox/72.0.1/releasenotes/
+=========================================================================
+2020-01-09 ; linux-installer (3.10-r1) ; Q4OS_3.10_Centaurus
+*** Release: q4os-setup.sh, version 3.10-r1
+  * Install q4os-desktop package before upgrade.
+  * Add support for Debian Bullseye.
+=========================================================================
+2020-01-07 ; q4os-libreoffice (3.4-a1) ; Q4OS_3.10_Centaurus
+  * Add Raspbian10, Raspbian11, Bullseye repositories to installer
+=========================================================================
+2020-01-06 ; q4os-vlc (3.1-a1) ; Q4OS_3.10_Centaurus
+  * Add "libdvdread4 | libdvdread7" dependency.
+=========================================================================
+2020-01-06 ; vboxgutils-q4 (3.4-a2) ; Q4OS_3.10_Centaurus
+  * Add support for Debian Bullseye.
+=========================================================================
+2020-01-05 ; vboxgutils-q4 (3.4-a1) ; Q4OS_3.10_Centaurus
+  * Using a dedicated script "qinst-vboxguest" now.
+  * Make installer available for i386 architecture too.
+=========================================================================
+2020-01-04 ; install-media (3.10-r1) ; Q4OS_3.10_Centaurus
+*** Release: q4os-3.10-x64.r1.iso
+*** Release: q4os-3.10-x64-tde.r1.iso
+*** Release: q4os-3.10-x64-instcd.r1.iso
+*** Release: q4os-3.10-i386-instcd.r1.iso
+ ** Install CD fix: Japanese/Chinese/Korean fonts, characters don't show.
+    Added "fonts-noto-cjk", the complete language setup remade to use Apt.
+  * Install CD fix: keyboard layout "ca/fr" doesn't set properly after
+    installation.
+  * Live media: remade keyboard settings procedure.
+  * First boot and first login sequence remake.
+  * Systemd services global stop timeout, the default configuration
+    made dependable on CPU architecture.
+=========================================================================
+2020-01-04 ; q4os-desktop (3.10.1-n1) ; Q4OS_3.10_Centaurus
+*** Separate Plasma and Trinity desktops, make them independent one on
+    each other. Add "q4os-desktop-plasma" or "q4os-desktop-trinity" to
+    dependencies. Shift some of dependecies to the new packages.
+  * Added "mawk" to recommended packages.
+=========================================================================
+2020-01-04 ; q4os-desktop-plasma (3.1.1-a1) ; Q4OS_3.10_Centaurus
+*** New package "q4os-desktop-plasma". Separate Plasma and Trinity
+    desktops, make them independent one on each other.
+ ** Replace the "q4os-kde5-desktop" package.
+=========================================================================
+2020-01-04 ; q4os-desktop-trinity (3.1.2-n1) ; Q4OS_3.10_Centaurus
+*** New package "q4os-desktop-trinity". Separate Plasma and Trinity
+    desktops, make them independent one on each other.
+  * Disable rtkit service only, if Trinity desktop installed.
+  * Added the package installation into the "q4os-setup.sh" script.
+=========================================================================
+2020-01-04 ; q4os-desktop-lxqt (3.1.1-a1) ; Q4OS_3.10_Centaurus
+ ** New package to cover LXQT desktop dependencies.
+=========================================================================
+2020-01-04 ; q4os-desktop-budgie (3.1.1-a1) ; Q4OS_3.10_Centaurus
+ ** New package to cover Budgie desktop dependencies.
+=========================================================================
+2020-01-04 ; calamares (1:3.2.4-3.7) ; Q4OS_3.10_Centaurus
+  * Display manager module now checks for TDM presence prior sorting out
+    to remove.
+  * Keyboard configuration custom hooks replaced with more common
+    scripts in q4os-base.
+  * Build script remake.
+  * Cleanup and removal of unused files.
+=========================================================================
+2020-01-04 ; q4os-base (3.9.5-a1) ; Q4OS_3.10_Centaurus
+ ** Fonts subpixel rendering setup for Plasma desktop.
+  * First login script fix: do relogin, if the first boot script
+    requires so.
+  * First login script: don't set dpi settings globally, but for the
+    first user only on the first system login.
+  * First login script fix: first login script removes the
+    "/root/.configkde/menus/tde-applications.menu" file.
+  * First boot and first login sequence remake.
+=========================================================================
+2020-01-04 ; q4os-swprofiler (3.3.1-a1) ; Q4OS_3.10_Centaurus
+ ** Make downloading of ".esh" along with the ".deb" packages.
+ ** Added Budgie desktop to desktops available.
+ ** Display additional desktop environment in the main dialog window.
+  * Installation script: sort out packages to install already installed.
+  * Installation script: do remove packages out of the selected profile.
+  * Prepare removal packages option.
+  * Remove function "read_from_cfgfile" as not needed anymore.
+  * Removed Liberation font dependency.
+  * Add packages to install from an optional file.
+  * Removed the old method of getting desktop environments list.
+  * A few localization strings included.
+  * Prepare for QT5/KDE Plasma overall build.
+  * Add overall build script for easy package and gettext file building.
+  * Code cleanup and minor fixes.
+=========================================================================
+2020-01-04 ; q4os-sw-profiler-data (3.5.1-a1) ; Q4OS_3.10_Centaurus
+ ** Added "budgie-desktop" to available desktops.
+  * Added "kde-spectacle" package into the Plasma basic and desktop
+    profile.
+  * Added "gufw" package into the common desktop profile.
+  * Added "clementine" package to the common desktop profile.
+  * Added "libreoffice" package to the common desktop profile.
+  * Replace "q4os-kde5-desktop" with "q4os-desktop-plasma".
+=========================================================================
+2019-12-31 ; q4os-cpuq5 (3.1.2-a1) ; Q4OS_3.9_Centaurus
+  * Fix wrong graphics report for Kvm/Qemu.
+  * Fix labels aligning on the CPU tab.
+  * Update KDE5 build scripts.
+  * Fix versioning.
+=========================================================================
+2019-12-31 ; q4os-cpuq (3.1.2-a1) ; Q4OS_3.9_Centaurus
+  * Fix wrong graphics report for Kvm/Qemu.
+  * Fix labels aligning on the CPU tab.
+=========================================================================
+2019-12-27 ; lookswitcher (3.5-a1) ; Q4OS_3.9_Centaurus
+  * Change Debonaire Plasma theme to "breeze-dark".
+  * Add "waterleaf-icon-theme-extra" into the recommended packages.
+=========================================================================
+2019-12-14 ; palemoon (28.8.0+repack-1) ; Q4OS_3.9_Centaurus
+  * Added package for arm64 systems.
+  * The complete relase notes https://www.palemoon.org/releasenotes.shtml
+=========================================================================
+2019-12-11 ; q4os-palemoon (3.1-a1) ; Q4OS_3.9_Centaurus
+  * Move Palemoon packages to Q4OS repository, configure installer the
+    appropriate way.
+  * Installer support for non-SSE2 systems. Autodetect non-SSE2 cpus and
+    select related packages for installation.
+=========================================================================
+2019-12-07 ; firefox (71.0~mozillabinaries-q4os.1) ; Q4OS_3.9_Centaurus
+  * The complete release notes, see
+    https://www.mozilla.org/en-US/firefox/71.0/releasenotes/
+  * Fixed the default homepage - http to https.
+=========================================================================
+2019-11-16 ; debian (10.2) ; Q4OS_3.9_Centaurus
+  * Debian 10.2 release, Debian Buster fixes and updates
+    changelog http://ftp.debian.org/debian/dists/buster/ChangeLog
+=========================================================================
+2019-11-14 ; q4os-smoffice (3.1-a1) ; Q4OS_3.9_Centaurus
+  * Softmaker office for Q4OS, initial testing release.
+=========================================================================
+2019-11-12 ; q4os-anydesk (3.1-a1) ; Q4OS_3.9_Centaurus
+  * Initial testing release.
+=========================================================================
+2019-11-12 ; q4os-palemoon (2.2-a1) ; Q4OS_3.9_Centaurus
+  * Update to Debian Buster repositories.
+=========================================================================
+2019-11-10 ; chromium (78.0.3904.97-1~deb10u1) ; Q4OS_3.9_Centaurus
+  * Fix: Update warning issue
+    https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=943668
+=========================================================================
+2019-11-01 ; q4os-base (3.9.4-a1) ; Q4OS_3.9_Centaurus
+  * Added titlebar text colorization for GTK3 themes in TDE.
+=========================================================================
+2019-11-01 ; q4os-styles-gtk3 (3.1.1-a1) ; Q4OS_3.9_Centaurus
+  * Bugfix: Set text color on Google Chrome tabs. Google Chrome tab text
+    in TDE got blacked after update.
+=========================================================================
+2019-10-30 ; waterleaf-icon-theme (20191025+q4os3.0-backport-a1) ; Q4OS_3.9_Centaurus
+  * New Waterleaf icons stable release (20191025) has been backported for
+    Q4OS 3 Centaurus. It is available for download from SourceForge
+    https://sourceforge.net/projects/q4os/files/packages/
+=========================================================================
+2019-10-25 ; q4os-desktop (3.9.2-n1) ; Q4OS_3.9_Centaurus
+  * Added "q4os-cpuq" to recommended packages.
+=========================================================================
+2019-10-25 ; q4os-kde5-desktop (3.2.1-a1) ; Q4OS_3.9_Centaurus
+  * Added "q4os-cpuq5" to recommended packages
+=========================================================================
+2019-10-25 ; q4os-welcome5 (3.4.1-a1) ; Q4OS_3.9_Centaurus
+ ** New "hardware info" option in the popup menu.
+  * Bugfix: The "desktop effects" button didn't get localization. Removed
+    comment field from the "text" property.
+  * Introduce CC_QT5 preprocessor command.
+  * Some QT5 code moved from patch to the source.
+  * Code cleanup.
+  * Build scripts improvements.
+=========================================================================
+2019-10-25 ; q4os-welcome (3.4.1-a1) ; Q4OS_3.9_Centaurus
+ ** New "hardware info" option in the popup menu.
+  * Code cleanup.
+=========================================================================
+2019-10-25 ; q4os-cpuq5 (3.1.1-a1) ; Q4OS_3.9_Centaurus
+*** Introducing a brand new application "CPU-Q" for Plasma. It provides
+    a comprehensive hardware information in a user friendly graphical
+    way.
+=========================================================================
+2019-10-25 ; q4os-cpuq (3.1.1-a1) ; Q4OS_3.9_Centaurus
+*** Introducing a brand new application "CPU-Q" for Trinity. It provides
+    a comprehensive hardware information in a user friendly graphical
+    way.
+=========================================================================
+2019-10-22 ; q4os-desktop (3.9.1-n2) ; Q4OS_3.9_Centaurus
+  * Package dependency "fonts-liberation2" replaced with
+    "fonts-liberation".
+ ** Get rid of "fonts-liberation2" dependency from Q4OS in complete.
+=========================================================================
+2019-10-22 ; lookswitcher (3.4-a1) ; Q4OS_3.9_Centaurus
+  * Apply the package's specific "fonts_classic.conf" file.
+=========================================================================
+2019-10-22 ; q4os-i18n (3.5.1-a1) ; Q4OS_3.9_Centaurus
+ ** The complete Dutch localization added. Thanks to Vistaus.
+=========================================================================
+2019-10-22 ; q4os-sw-profiler-data (3.4.2-a1) ; Q4OS_3.9_Centaurus
+  * Added "gnome-human-icon-theme" package to the Xfce desktop profile.
+  * Added "skanlite" package to the Plasma desktop profile.
+=========================================================================
+2019-10-22 ; q4os-base (3.9.3-a1) ; Q4OS_3.9_Centaurus
+  * Bugfix: First login script - do re-login, if the first boot script
+    requires.
+  * First login script - don't set dpi settings globally,
+    but for the first user only on the first system login.
+  * Bugfix: fix for Firefox - opening containing folder in TDE calls
+    Dolphin instead of konqueror-trinity.
+  * Bugfix: first login script removes the
+    "/root/.configkde/menus/tde-applications.menu" file.
+  * Bugfix: localization - dowqi18n.sh script translations didn't work,
+    removed LANG="C" assignment.
+=========================================================================
+2019-10-15 ; q4os-i18n (3.4.1-a1) ; Q4OS_3.9_Centaurus
+  * Portuguese and Portuguese Brasil translations updated.
+    Thanks to Hugok79.
+  * Fixed some of fuzzy translations - desktop-profiler, software-centre.
+=========================================================================
+2019-10-14 ; waterleaf-icon-theme (20190804+q4os3.0-a1) ; Q4OS_3.9_Centaurus
+  * Compiled a guidelines for Waterleaf iconset development
+    http://htmlpreview.github.com/?https://github.com/jaerrib/waterleaf-icon-theme/blob/development/dev_guide/waterleaf_guide.html
+=========================================================================
+2019-10-13 ; q4os-desktop (3.9.1-n1) ; Q4OS_3.9_Centaurus
+  * Change format of the changelog file.
+=========================================================================
+     2019-10-10  q4os-base               qrepoadd - add localization                                                                                              tested ok  
+     2019-10-10  q4os-base               qrepoadd - startup notification added                                                                                tested ok  
+     2019-10-10  q4os-base               qrepoadd - https://kx.studio/ repositories added                                                                     tested ok  
+*    2019-10-09  q4os-i18n, q4os-base    added q4os-base catalog, shell scripts internationalization                                                          tested ok  
+     2019-10-09  q4os-i18n               added q4os-shortcuts catalog                                                                                         tested ok  
+     2019-10-09  q4os-base               fixed tdebuildsycoca under plasma - created symlink in .configkde                                                    tested ok  
+     2019-10-09  q4os-base               qinst-vboxguest - new script to make virtualbox guest addition installation easier                                   tested ok  
+     2019-10-05  q4os-base               addlanguage script remade, added support for japanese/chinese/korean, made the complete language setup using apt     tested ok  
+     2019-10-05  q4os-base               new keyboard layout script + first boot script update                                                                tested ok  
+     2019-10-05  q4os-libreoffice        added libreoffice-kde5 dependency to the q4os-libreoffice                                                            tested ok  
+     2019-10-02  q4os-i18n               add new translations, new portuguesse translations, screenscaler, welcome-screen, etc ...                            tested ok  
+     2019-10-01  q4os-winsetup           winsetup - bugfix: if more >10 efi records, loop image doesn't insert proper uefi entry, see bhook1_wubicfg.sh scripttested ok  
+***  2019-09-30  q4os                    q4os-3.9-x64-instcd.r1.iso released                                                                                  tested ok  
+***  2019-09-30  q4os                    q4os-3.9-i386-instcd.r1.iso released                                                                                 tested ok  
+*    2019-09-30  q4os                    q4os-setup install script updated, fixed architecture checking                                                       tested ok  
+**   2019-09-28  q4os-calamares, q4os-inscalamares - add support for chinese, japanese, korean, etc.. - fonts-noto-cjk added                                  tested ok  
+     2019-09-28  q4os-installer          bugfix - kwksh script offers chromium instead of chrome                                                              tested ok  
+     2019-09-28  debian                  updated debian packages, fixing multiple security vulnerabilities https://security-tracker.debian.org/tracker/CVE-201tested ok  
+***  2019-09-28  q4os                    q4os-3.9-x64.r1.iso released                                                                                         tested ok  
+***  2019-09-28  q4os                    q4os-3.9-x64-tde.r1.iso released                                                                                     tested ok  
+***  2019-09-27  q4os-screenscaler       q4os-screenscaler - brand new application replacing the old one, configurable per user, etc ...                      tested ok  
+     2019-09-27  q4os-base               use xrandr for dpi probe, update auto-configuration scripts and related stuff                                        tested ok  
+**   2019-09-27  q4os-welcome-screen     welcome-screen - added new options, screen scaling, donation, documents, etc ...                                     tested ok  
+     2019-09-27  q4os-welcome-screen     welcome-screen - enabled some actions in plasma                                                                      tested ok  
+*    2019-09-27  q4os-swcentre           swcentre - improve scaling + resizing                                                                                tested ok  
+     2019-09-27  q4os-desktop            add bc dependency into the q4os-desktop                                                                              tested ok  
+     2019-09-27  q4os-swprofiler-data    q4os-swprofiler-data: added fonts-droid-fallback into the full profile                                               tested ok  
+     2019-09-27  q4os-swprofiler-data    q4os-swprofiler-data: added "mesa-vulkan-drivers vulkan-tools vulkan-validationlayers" into the basic and full profiltested ok  
+*    2019-09-27  q4os-swprofiler-data    q4os-swprofiler-data: added "policykit-1-gnome" for xfce desktop into the basic and full profile                    tested ok  
+     2019-09-12  q4os-libreoffice        libreoffice uninstaller doesn't do the complete removal - fixed                                                      tested ok  
+**   2019-09-07  debian                  updated to Debian 10.1, see changes http://ftp.debian.org/debian/dists/buster/ChangeLog                              tested ok  
+     2019-09-01  q4os-installer          systemd global stop timeout updated                                                                                  tested ok  
+     2019-09-01  q4os-installer          adding XDG_CONFIG_DIRS to sudoers.d - fixed bug: command "sudo tdebuildsycoca" fails, it causes some issues for examptested ok  
+     2019-09-01  q4os-swprofiler-data    q4os-swprofiler-data: remove plasma-discover-backend-snap as fails                                                   tested ok  
+     2019-08-02  q4os-installer          live media - improve reboot - get rid of /liblive/mount/medium mount, as fixed in calamares                          tested ok  
+     2019-08-02  q4os-installer          packages to remove - add from filesystem.packages-remove to packages.conf                                            tested ok  
+     2019-08-02  q4os-installer          bug: uefi secure boot - cryptsetup with secure boot doesn't work - copy q4os/grub.cfg into the efi/debian/ dir       tested ok  
+     2019-08-02  q4os-installer          cryptsetup-initramfs reports some warnings - fix - autoremove cryptsetup + cryptsetup-initramfs packages, if not usedtested ok  
+     2019-08-02  q4os-base               check haveged - seems to be fixed                                                                                    tested ok  
+     2019-08-02  q4os-installer          check /run/live/medium mount on installer start > script - install-debian                                            tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - make deskenv dependent profiles - move plasma-discover + print-manager to profiler-data only ;  + add sntested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - add microcode packages                                                                                  tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - hide other desktops button, if no desktop available                                                     tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler-data - add plasma-widgets-addons into the full profile                                                    tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - write the default desktop environment to q4base.conf, if selected from chooser                          tested ok  
+     2019-08-02  q4os-paper-icons        apply updates according to github projects - q4os-paper-icons update                                                 tested ok  
+     2019-08-02  q4os-kde5-desktop       disable tde arts for plasma                                                                                          tested ok  
+     2019-08-02  q4os-installer          inxi into the live media - don't pull lm-sensors                                                                     tested ok  
+     2019-08-02  q4os-installer          add libarts1-audiofile-trinity to live-cd                                                                            tested ok  
+     2019-08-02  q4os-installer          remove krusader from live-cd + remove more plasma apps                                                               tested ok  
+     2019-08-02  q4os-installer          remove print-manager from live-cd                                                                                  tested ok  
+     2019-08-02  q4os-installer          remove vboxgutils autostart                                                                                        tested ok  
+     2019-08-02  q4os-installer          disable calamares apt update                                                                                         tested ok  
+     2019-08-02  tdebase-trinity         tdebase - remove wallpaper lineart before the stable centaurus release                                               tested ok  
+     2019-08-02  tdebase-trinity         tdebase - add transparent adaptive wallpaper from to tdebase                                                         tested ok  
+     2019-08-02  tdebase-trinity         tdebase - disable unwanted actions in menu, see https://www.q4os.org/forum/viewtopic.php?id=2611                     tested ok  
+     2019-08-02  q4os-installer          remove "dnsutils + geoip-database" + related libraries from the trinity live-cd, but not plasma                      tested ok  
+     2019-08-02  q4os-installer          remove ruby* packages from live-cd                                                                                   tested ok  
+     2019-08-02  q4os-installer          add mesa-utils into the live-cd                                                                                      tested ok  
+     2019-08-02  q4os-update-manager     bug: update manager - run with no internet connection, attempt to close updater window using the titlebar close buttotested ok  
+     2019-08-02  q4os-update-manager     bug: update manager - sometimes crashes - check cpp code for memory leaks, valgrind, gdb, ...                        tested ok  
+     2019-08-02  q4os-base               bug: switch to classic/categories start menu type - contol panel is not available in the start menu                  tested ok  
+     2019-08-02  tdebase-trinity         ksvg-trinity - add to the core installation, q4os-desktop deps - todo: move to recommends                            tested ok  
+     2019-08-02  tdebase-trinity         bug: svg screensavers rendered incorrectly in tde - https://sourceforge.net/p/q4os/tickets/95/                       tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - offer plasma installation for more powerful i386 hardware too                                           tested ok  
+     2019-08-02  q4os-swprofiler         swprofiler - reboot in plasma doesn't work                                                                           tested ok  
+     2019-08-02  q4os-welcome-screen     make welcome screen for plasma - new i18n + new q4os-base to fix autostart link + new q4os-kde5-desktop              tested ok  
+     2019-08-02  q4os-kde5-desktop       plasma - login into the empty session, instead of a saved one                                                        tested ok  
+     2019-08-02  q4os-welcome-screen     bug: double welcome screen in plasma on startup - exclude it from session restore                                    tested ok  
+     2019-08-02  q4os-chrome             google-chrome flashes black on startup, reproducible - seems to be fixed by google in version 76                     tested ok  
+     2019-08-02  q4os-installer          pulseaudio - add to i386 core install as well                                                                        tested ok  
+     2019-08-02  q4os-base               systemd - change services global stop timeout                                                                        tested ok  
