@@ -281,3 +281,20 @@ ol li
 #colour{margin: 0px 0px 20px 0px;}
 
 #colour a, #colour a:hover{border: 0px;}
+
+.btn {
+  background: #FFA70F !important;
+  padding: 0.7em 1.2em !important;
+  border: none !important;
+  color: black !important;
+  border-radius: 4px;
+  font-weight: bold;
+}
+
+.colorize_hover {
+  filter: grayscale(100%);
+}
+
+.colorize_hover:hover {
+  filter: none;
+}
