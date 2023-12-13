@@ -20,11 +20,11 @@ blockquote{border-color: #109CEF;}
 #links a, #footer a
 { background: transparent;
   color: #FFF;
-  padding: 4px;
+  margin: 4px;
 }
 
 #links a:hover, #footer a:hover
-{ background: #e46740;
+{ border-bottom: 4px solid #e46740;
   color: #FFF;
 }
 
