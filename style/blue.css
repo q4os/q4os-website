@@ -11,7 +11,7 @@ blockquote{border-color: #109CEF;}
 }
 
 #links, #footer, #menu li a
-{ background: #646464;
+{ background: #5b6782;
   /* background: #FFF url(gradient.png); */
   color: #FFF;
   border-color: #5F74C7;
@@ -20,10 +20,11 @@ blockquote{border-color: #109CEF;}
 #links a, #footer a
 { background: transparent;
   color: #FFF;
+  padding: 4px;
 }
 
 #links a:hover, #footer a:hover
-{ background: #5F74C7;
+{ background: #e46740;
   color: #FFF;
 }
 
@@ -57,7 +58,7 @@ h1, #column1 h1, #column2 h1
 }
 
 #menu li a:hover, #menu li a#selected:hover
-{ background: #5F74C7;
+{ background: #e46740;
   color: #FFF;
 }
 
