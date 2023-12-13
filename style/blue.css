@@ -10,7 +10,7 @@ blockquote{border-color: #109CEF;}
   color: #5F74C7;
 }
 
-#links, #footer, #menu li a
+#links, #footer
 { background: #5b6782;
   /* background: #FFF url(gradient.png); */
   color: #FFF;
@@ -50,6 +50,12 @@ h1, #column1 h1, #column2 h1
 { background: #FFF;
   color: #000;
   border: 1px solid;
+}
+
+#menu li a {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: black;
 }
 
 #menu li a#selected
