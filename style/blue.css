@@ -64,7 +64,7 @@ h1, #column1 h1, #column2 h1
 }
 
 #menu li a:hover, #menu li a#selected:hover
-{ background: #e46740;
+{ background: #5F74C7;
   color: #FFF;
 }
 
