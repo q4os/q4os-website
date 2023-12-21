@@ -4,7 +4,9 @@ html{height: 100%;}
 body
 { font: normal .75em arial, sans-serif;
   background: #FBFBFB;
-  color: #5D5D5D;}
+  color: black;
+  /* color: #5D5D5D; */
+}
 
 p
 { padding: 0 0 18px 0;
