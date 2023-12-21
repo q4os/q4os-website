@@ -1,0 +1,53 @@
+html {
+  font: normal 1em Arial, Helvetica, "Liberation Sans", sans-serif !important;
+  color: black !important;
+  background-color: white !important;
+}
+
+#document {
+  /* margin-left: auto;
+  margin-right: auto;
+  width: 900px;
+  border:1px solid; */
+  padding: 18px;
+}
+
+p {
+  color: black;
+  line-height: 1.7em;
+  /* padding: 0 0 18px 0; */
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 1.5em;
+}
+
+h3 {
+  font-size: 12pt;
+}
+
+pre {
+  border: 1px dashed gray;
+  font-size: 11pt;
+  font-family: "monospace";
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+ol, li {
+  font-size: 1em;
+  line-height: 135%;
+  margin-left: 15px;
+}
+
+.revision {
+  color: gray;
+  font-size: 2;
+  padding: 10px;
+}
