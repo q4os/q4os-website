@@ -298,3 +298,44 @@ ol li
 .colorize_hover:hover {
   filter: none;
 }
+
+.dntcrypto {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.cryptocard {
+  display: flex;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  align-items: center;
+}
+
+.cryptocard .cryptoaddress {
+  word-wrap: break-word;
+  font-family: monospace;
+  font-size: 16px;
+}
+.cryptocard .cryptocontent {
+  margin: 16px;
+}
+.cryptocard .crlogo {
+  height: 32px;
+  margin-bottom: 16px;
+}
+
+.copybtn {
+  margin-left: 4px;
+  height: 1em;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.copybtn:hover {
+  opacity: 50%;
+}
+
+.cryptoqr {
+  width: 10em;
+}
