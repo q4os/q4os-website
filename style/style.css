@@ -339,3 +339,15 @@ ol li
 .cryptoqr {
   width: 10em;
 }
+
+.dnt_row {
+  display: flex;
+  text-align: left;
+  flex-wrap: wrap;
+}
+
+.dnt_row > div {
+  margin-right: 3em;
+  margin-bottom: 3em;
+  width: 15em;
+}
