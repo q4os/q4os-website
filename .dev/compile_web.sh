@@ -16,7 +16,7 @@ find . -type f -iname "*.html" | while read -r INFILE
 do
   echo "" ; echo ">>>>>>>>>>>>>>>>>>>>>>> Processing: $INFILE"
   OUTFILE="$INFILE"
-  tidy -m --wrap 0 --hide-comments yes --tidy-mark 0 $INFILE
+  tidy -m --wrap no --hide-comments yes --tidy-mark no $INFILE
 done
 
 find . -type f -iname "*.css" | while read -r INFILE
