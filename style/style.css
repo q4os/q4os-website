@@ -351,3 +351,18 @@ ol li
   margin-bottom: 3em;
   width: 17em;
 }
+
+.dnt_cell_1 {
+  align-items: center;
+}
+
+.dnt1-btn {
+  border: none;
+  background: none;
+  padding: 0;
+  cursor: pointer;
+}
+
+input[type="radio"] {
+  accent-color: #aaa;
+}

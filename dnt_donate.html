@@ -67,8 +67,83 @@
 
             <div>
               <div style="margin-top:0em; margin-bottom:0.6em"><b>Bank card</b> or <b>Apple</b>, <b>Google pay</b>:</div>
-              <div><a style="border:none;" href="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00"><img class="colorize_hover" src="style/stripe_btn1.png" width="" height="50" title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" /></a></div>
+<!--               <div><a style="border:none;" href="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00"><img class="colorize_hover" src="style/stripe_btn1.png" width="" height="50" title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" /></a></div> -->
+              <div class="dnt_cell_1">
+
+                <div style="margin-bottom:8px;">
+                  <label>
+                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00" checked>
+                    $ USD
+                  </label>
+                  <label style="margin-left:0.6em;">
+                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/eVqcMZ7AodPQ9L756O4Ni02">
+                    € EUR
+                  </label>
+                  <label style="margin-left:0.6em;">
+                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/9B6fZbbQEh221eBczg4Ni03">
+                    ¥ JPY
+                  </label>
+                </div>
+                <button type="button" class="dnt1-btn" onclick="goStripe()">
+                  <img class="colorize_hover"
+                      src="style/stripe_btn1.png"
+                      height="50"
+                      style="display:block;"
+                      title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" />
+                </button>
+
+
+
+                <script>
+                //<![CDATA[
+                function goStripe() {
+                  var selected = document.querySelector('input[name="stripe_currency"]:checked');
+                  if (selected) {
+                    window.location.href = selected.value;
+                  }
+                }
+                //]]>
+                </script>
+
+
+
+              </div>
             </div>
+
+            <div>
+              <div style="margin-top:0em; margin-bottom:0.6em"><b>PayPal</b>:</div>
+              <!-- swdevelopment: https://www.paypal.com/donate/?hosted_button_id=EMZ39LECTE2XA -->
+              <!-- jupiter4     : https://www.paypal.com/donate/?hosted_button_id=HKKAK9EDA5MPA -->
+              <div class="dnt_cell_1">
+                <form method="post" action="https://www.paypal.com/donate">
+                  <div style="margin-bottom:8px;">
+                    <label for="usd">
+                      <input type="radio" id="usd" name="hosted_button_id" value="EMZ39LECTE2XA" checked>
+                      $ USD
+                    </label>
+                    <label for="eur" style="margin-left:0.6em;">
+                      <input type="radio" id="eur" name="hosted_button_id" value="XVEJU55HGJW8Y">
+                      € EUR
+                    </label>
+                    <label for="gbp" style="margin-left:0.6em;">
+                      <input type="radio" id="gbp" name="hosted_button_id" value="V2XNCTHXTB5JA">
+                      £ GBP
+                    </label>
+                  </div>
+                  <button type="submit" class="dnt1-btn">
+                    <img class="colorize_hover"
+                        src="style/paypal_btn1_clr.png"
+                        height="50"
+                        style="display:block;"
+                        title="Donate with PayPal"
+                        alt="Donate with PayPal">
+                  </button>
+                </form>
+              </div>
+            </div>
+
+          </div>
+          <div class="dnt_row">
 
             <div>
               <div style="margin-top:0em; margin-bottom:0.6em"><b>Bitcoin</b>, <b>Ethereum</b> and others:</div>
@@ -77,17 +152,6 @@
                 <img src="style/crypto_logos/eth.png" width="" height="40" style="margin-right: 8px" />
                 <img src="style/crypto_logos/dogecoinlogo.png" width="" height="38" />
               </a>
-            </div>
-
-          </div>
-          <div class="dnt_row">
-
-            <div>
-                <div style="margin-top:0em; margin-bottom:0.6em"><b>PayPal</b>:</div>
-        <!-- swdevelopment: https://www.paypal.com/donate/?hosted_button_id=EMZ39LECTE2XA -->
-        <!-- jupiter4     : https://www.paypal.com/donate/?hosted_button_id=HKKAK9EDA5MPA -->
-                <div><a style="border:none;" href="https://www.paypal.com/donate/?hosted_button_id=EMZ39LECTE2XA"><img class="colorize_hover" src="style/paypal_btn1_clr.png" width="" height="52" title="Donate with PayPal" /></a>
-                </div>
             </div>
 
             <div>
@@ -131,7 +195,7 @@
     </div> <!--id="content"-->
 
     <div id="footer">
-      <a href="https://www.q4os.org">copyright &copy; 2024 Q4OS</a>
+      <a href="https://www.q4os.org">copyright &copy; 2026 Jupiter foundation</a>
 <!--       <a href="https://www.q4os.org">copyright &copy; 2014 Q4OS</a> | <a href="https://validator.w3.org/check?uri=referer">XHTML 1.1</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a> -->
     </div>
 
