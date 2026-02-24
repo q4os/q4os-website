@@ -366,3 +366,47 @@ ol li
 input[type="radio"] {
   accent-color: #aaa;
 }
+
+.donate-box {
+/*   background: #f4f8ff; */
+/*   border: 1px solid #b7cde8; */
+  padding: 0em 0.4em;
+  border-radius: 4px;
+  display: inline-block;
+/*   font-family: Arial, Helvetica, sans-serif; */
+}
+
+.donate-row {
+  display: flex;
+  align-items: center;
+  gap: 0.4em;
+  margin-top: 0px;
+}
+
+.donate-select {
+  max-width: 5em;
+  padding: 4px 6px;
+  border: 1px solid #7aa5d6;
+  border-radius: 3px;
+/*   font-size: 14px; */
+  outline: none !important;
+}
+
+.currency-symbol {
+  font-size: 115%;
+  font-weight: bold;
+  padding-right: 0.1em;
+  padding-left: 0.4em;
+  color: #1b4f9c;
+/*   min-width: 8px; */
+  text-align: right;
+}
+
+.donate-amount {
+  max-width: 2.9em;
+  padding: 4px 6px;
+  border: 1px solid #7aa5d6;
+  border-radius: 3px;
+  margin-right: 0.4em;
+/*   font-size: 14px; */
+}
