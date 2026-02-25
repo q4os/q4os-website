@@ -384,16 +384,24 @@ input[type="radio"] {
 }
 
 .donate-select {
-  max-width: 5em;
+  max-width: 4.7em;
   padding: 4px 6px;
   border: 1px solid #7aa5d6;
   border-radius: 3px;
-/*   font-size: 14px; */
   outline: none !important;
+  /*color: inherit;*/      /* Use text color from input/desktop */
+  background-color: unset; /* <- let OS handle the background */
+  /*appearance: none;*/    /* Optional: removes arrow styling if needed */
+  cursor: pointer;
+}
+
+.donate-select:focus {
+  border-color: Highlight; /* Use system highlight color */
+  outline: none;
 }
 
 .currency-symbol {
-  font-size: 115%;
+  font-size: 112%;
   font-weight: bold;
   padding-right: 0.1em;
   padding-left: 0.4em;
@@ -408,5 +416,11 @@ input[type="radio"] {
   border: 1px solid #7aa5d6;
   border-radius: 3px;
   margin-right: 0.4em;
-/*   font-size: 14px; */
+  -moz-appearance: textfield; /* Hides arrows in Firefox */
+}
+
+.donate-amount:focus {
+  border-color: Highlight; /* Use system highlight color */
+  outline: none;
+  /*box-shadow: 0 0 2px 2px rgba(74,144,226,0.3);*/
 }
