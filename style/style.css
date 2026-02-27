@@ -352,8 +352,13 @@ ol li
   width: 17em;
 }
 
-.dnt_cell_1 {
-  align-items: center;
+.dnt_cell_1 select,
+.dnt_cell_1 select:focus {
+  outline: none;
+  border: 1px solid #c2c2c2;
+  background-color: unset; /* <- let OS handle the background */
+/*   border-color: #c2c2c2; */
+/*   align-items: center; */
 }
 
 .dnt1-btn {
@@ -383,44 +388,38 @@ input[type="radio"] {
   margin-top: 0px;
 }
 
-.donate-select {
-  max-width: 4.7em;
-  padding: 4px 6px;
-  border: 1px solid #7aa5d6;
-  border-radius: 3px;
-  outline: none !important;
-  /*color: inherit;*/      /* Use text color from input/desktop */
-  background-color: unset; /* <- let OS handle the background */
-  /*appearance: none;*/    /* Optional: removes arrow styling if needed */
-  cursor: pointer;
-}
-
+.donate-select,
 .donate-select:focus {
-  border-color: Highlight; /* Use system highlight color */
-  outline: none;
+  outline: none !important;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  background-color: unset; /* <- let OS handle the background */
+  padding: 4px 6px;
+  cursor: pointer;
+  max-width: 4.7em;
+  /*border-color: #c2c2c2; */
+  /*border-color: Highlight;*/ /* Use system highlight color */
+  /*color: inherit;*/      /* Use text color from input/desktop */
+  /*appearance: none;*/    /* Optional: removes arrow styling if needed */
 }
 
 .currency-symbol {
-  font-size: 112%;
-  font-weight: bold;
+  font-size: 104%;
+/*   font-weight: bold; */
   padding-right: 0.1em;
   padding-left: 0.4em;
-  color: #1b4f9c;
+/*   color: #1b4f9c; */
 /*   min-width: 8px; */
-  text-align: right;
+/*   text-align: right; */
 }
 
-.donate-amount {
-  max-width: 2.9em;
-  padding: 4px 6px;
-  border: 1px solid #7aa5d6;
-  border-radius: 3px;
-  margin-right: 0.4em;
-  -moz-appearance: textfield; /* Hides arrows in Firefox */
-}
-
+.donate-amount,
 .donate-amount:focus {
-  border-color: Highlight; /* Use system highlight color */
-  outline: none;
-  /*box-shadow: 0 0 2px 2px rgba(74,144,226,0.3);*/
+  outline: none !important;
+  border: 1px solid #c2c2c2;
+  border-radius: 3px;
+  padding: 4px 6px;
+  margin-right: 0.4em;
+  max-width: 2.9em;
+  -moz-appearance: textfield; /* Hides arrows in Firefox */
 }

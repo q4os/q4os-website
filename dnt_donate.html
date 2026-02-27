@@ -67,46 +67,26 @@
 
             <div>
               <div style="margin-top:0em; margin-bottom:0.6em"><b>Bank card</b> or <b>Apple</b>, <b>Google pay</b>:</div>
-<!--               <div><a style="border:none;" href="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00"><img class="colorize_hover" src="style/stripe_btn1.png" width="" height="50" title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" /></a></div> -->
-              <div class="dnt_cell_1">
-
-                <div style="margin-bottom:8px;">
-                  <label>
-                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00" checked>
-                    $ USD
-                  </label>
-                  <label style="margin-left:0.6em;">
-                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/eVqcMZ7AodPQ9L756O4Ni02">
-                    € EUR
-                  </label>
-                  <label style="margin-left:0.6em;">
-                    <input type="radio" name="stripe_currency" value="https://donate.stripe.com/9B6fZbbQEh221eBczg4Ni03">
-                    ¥ JPY
-                  </label>
-                </div>
+              <div class="dnt_cell_1" style="display:flex; align-items:flex-start; gap:12px;">
                 <button type="button" class="dnt1-btn" onclick="goStripe()">
                   <img class="colorize_hover"
                       src="style/stripe_btn1.png"
                       height="50"
                       style="display:block;"
+                      alt="Donate with Stripe"
                       title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" />
                 </button>
-
-
-
-                <script>
-                //<![CDATA[
-                function goStripe() {
-                  var selected = document.querySelector('input[name="stripe_currency"]:checked');
-                  if (selected) {
-                    window.location.href = selected.value;
-                  }
-                }
-                //]]>
-                </script>
-
-
-
+                <select id="stripe_currency" style="padding:6px;">
+                  <option value="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00">
+                    $ USD
+                  </option>
+                  <option value="https://donate.stripe.com/eVqcMZ7AodPQ9L756O4Ni02">
+                    € EUR
+                  </option>
+                  <option value="https://donate.stripe.com/9B6fZbbQEh221eBczg4Ni03">
+                    ¥ JPY
+                  </option>
+                </select>
               </div>
             </div>
 
@@ -120,28 +100,27 @@
                                                                                   2QSQK3PG6VJDW -->
               <div class="dnt_cell_1">
                 <form method="post" action="https://www.paypal.com/donate">
-                  <div style="margin-bottom:8px;">
-                    <label for="usd">
-                      <input type="radio" id="usd" name="hosted_button_id" value="HKKAK9EDA5MPA" checked>
-                      $ USD
-                    </label>
-                    <label for="eur" style="margin-left:0.6em;">
-                      <input type="radio" id="eur" name="hosted_button_id" value="XBZ9TF9PBBHNC">
-                      € EUR
-                    </label>
-                    <label for="gbp" style="margin-left:0.6em;">
-                      <input type="radio" id="gbp" name="hosted_button_id" value="2QSQK3PG6VJDW">
-                      £ GBP
-                    </label>
+                  <div style="display:flex; align-items:flex-start; gap:12px;">
+                    <button type="submit" class="dnt1-btn">
+                      <img class="colorize_hover"
+                          src="style/paypal_btn1_clr.png"
+                          height="50"
+                          style="display:block;"
+                          title="Donate via PayPal. Q4OS funding is secured by Jupiter4 foundation."
+                          alt="Donate with PayPal">
+                    </button>
+                    <select name="hosted_button_id" style="padding:6px;">
+                      <option value="HKKAK9EDA5MPA">
+                        $ USD
+                      </option>
+                      <option value="XBZ9TF9PBBHNC">
+                        € EUR
+                      </option>
+                      <option value="2QSQK3PG6VJDW">
+                        £ GBP
+                      </option>
+                    </select>
                   </div>
-                  <button type="submit" class="dnt1-btn">
-                    <img class="colorize_hover"
-                        src="style/paypal_btn1_clr.png"
-                        height="50"
-                        style="display:block;"
-                        title="Donate to Jupiter4 endowment fund via PayPal"
-                        alt="Donate with PayPal">
-                  </button>
                 </form>
               </div>
             </div>
@@ -151,32 +130,29 @@
 
             <div>
               <div style="margin-top:0em; margin-bottom:0.6em"><b>Bitcoin</b>, <b>Ethereum</b> and others:</div>
-              <a style="border:none; ; display:block; width:max-content" class="colorize_hover" href="dnt_crypto.html" title="Donations through cryptocurrencies. Bitcoin, Ethereum and others">
-                <img src="style/crypto_logos/btc.png" width="" height="38" style="margin-right: 8px" />
-                <img src="style/crypto_logos/eth.png" width="" height="40" style="margin-right: 8px" />
-                <img src="style/crypto_logos/dogecoinlogo.png" width="" height="38" />
+              <a style="border:none; display:block; width:max-content" class="colorize_hover" href="dnt_crypto.html" title="Donations through cryptocurrencies. Bitcoin, Ethereum and others">
+                <img src="style/crypto_logos/btc.png" height="38" style="margin-right: 8px" />
+                <img src="style/crypto_logos/eth.png" height="40" style="margin-right: 8px" />
+                <img src="style/crypto_logos/dogecoinlogo.png" height="38" />
               </a>
             </div>
 
             <div>
               <div style="margin-top:0em; margin-bottom:0.6em"><b>Patreon</b>:</div><!--         <div style="margin-left: 3em"><a href="https://www.patreon.com/bePatron?u=47440913" class="btn">Become a Patron</a></div> -->
-              <div><a style="border:none;" href="https://www.patreon.com/bePatron?u=47440913"><img class="colorize_hover" src="style/patreon_btn1_clr.png" width="" height="34" title="Support our work the Patreon way" /></a></div>
+              <div><a style="border:none;" href="https://www.patreon.com/bePatron?u=47440913"><img class="colorize_hover" src="style/patreon_btn1_clr.png" height="34" title="Support our work the Patreon way" /></a></div>
             </div>
 
           </div>
 
-          <div class="dnt_row">
-
+<!--          <div class="dnt_row">
             <div>
-              <div style="margin-top:0em; margin-bottom:0.6em"><b>Liberapay</b>:</div><!--         <div style="margin-left: 3em"><a href="https://www.patreon.com/bePatron?u=47440913" class="btn">Become a Patron</a></div> -->
-              <div><a style="border:none;" href="https://liberapay.com/Q4OS"><img class="colorize_hover" src="style/liberapay.svg" width="" height="36" title="Donations through Liberapay" /></a></div>
+              <div style="margin-top:0em; margin-bottom:0.6em"><b>Liberapay</b>:</div>
+              <div><a style="border:none;" href="https://liberapay.com/Q4OS"><img class="colorize_hover" src="style/liberapay.svg" height="36" title="Donations through Liberapay" /></a></div>
             </div>
-
             <div>
             </div>
-
           </div>
-        </div>
+        </div>-->
 
         <h5>How much should I give ?</h5>
         <p>The donations we receive range from a single dollar to several of hundreds. For people, the important thing is to give something. For us, it is to generate the income that allows us to work and succeed on this project month after month. If you want to help, and if you can do so, please make a donation to the project and encourage others to do so.</p>
@@ -194,11 +170,21 @@
 
     </div> <!--id="content"-->
 
+  </div>
+
     <div id="footer">
       <a href="https://www.q4os.org">copyright &copy; 2026 Jupiter4 foundation</a>
-<!--       <a href="https://www.q4os.org">copyright &copy; 2014 Q4OS</a> | <a href="https://validator.w3.org/check?uri=referer">XHTML 1.1</a> | <a href="https://jigsaw.w3.org/css-validator/check/referer">CSS</a> -->
     </div>
 
   </div>
+
+  <script>
+  //<![CDATA[
+  function goStripe() {
+    window.location.href = document.getElementById("stripe_currency").value;
+  }
+  //]]>
+  </script>
+
 </body>
 </html>
