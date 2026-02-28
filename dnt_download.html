@@ -58,7 +58,7 @@
       <div id="column2">
 <!-- **** INSERT PAGE CONTENT HERE **** -->
         <h1>Please donate</h1>
-        <p style="margin-bottom:0">We kindly ask you to help us build the perfect everyday operating system. Jupiter4 secures development funding via Paypal:</p>
+        <p style="margin-bottom:0">We kindly ask you to help us build the perfect everyday operating system. Jupiter4 ensures Q4OS funding via Paypal:</p>
         <table style="margin-left:0em" summary="Donation">
           <tr>
           <td>
@@ -67,8 +67,8 @@
               <input type="hidden" name="cmd" value="_donations" />
               <input type="hidden" name="item_name" value="providing Q4OS development" />
               <input type="hidden" name="no_shipping" value="1" />
-              <input type="hidden" name="return" value="https://www.q4os.org/redirect20.html" />
-              <input type="hidden" name="cancel_return" value="https://www.q4os.org/dnt20.html" />
+              <input type="hidden" id="returnUrl" name="return" value="" />
+              <input type="hidden" id="cancelUrl" name="cancel_return" value="" />
               <input type="hidden" name="cbt" value="Continue to Download Q4OS >" />
               <input type="hidden" name="cn" value="Thank you for the contribution:" />
 
@@ -85,30 +85,11 @@
 
                 <span id="currencySymbol" class="currency-symbol">$</span>
                 <input type="number" step="1" min="1" id="amount" name="amount" value="12" class="donate-amount" required />
-                <input type="image" name="submit" title="Donate to Jupiter4 endowment fund via PayPal" src="style/btn_donate_LG.gif" alt="Donate via PayPal" />
+                <input type="image" name="submit" title="Donation for Q4OS via PayPal. Jupiter4 fund ensures your entire donation goes directly to Q4OS developers." src="style/btn_donate_LG.gif" alt="Donate via PayPal" />
               </div>
             </form>
-
-            <script type="text/javascript">
-              //<![CDATA[
-              const currencySelect = document.getElementById("currency");
-              const amountInput = document.getElementById("amount");
-              const symbolSpan = document.getElementById("currencySymbol");
-  
-              function updateUI() {
-                const selectedOption = currencySelect.options[currencySelect.selectedIndex];
-                const symbol = selectedOption.getAttribute("data-symbol");
-                const currency = currencySelect.value;
-                const amount = parseFloat(amountInput.value);
-                symbolSpan.textContent = symbol;
-              }
-              currencySelect.addEventListener("change", updateUI);
-              amountInput.addEventListener("input", updateUI);
-              updateUI();
-              //]]>
-            </script>
           </td>
-          <td style="width: 100%; padding-right: 1em; text-align: right"><a style="color:#E99A25; border-bottom: 1px dotted" href="redirect20.html"><b>Not now, take me to the download ></b></a></td>
+          <td style="width: 100%; padding-right: 1em; text-align: right"><a id="skipLink" style="color:#E99A25; border-bottom: 1px dotted" href="#"><b>Not now, take me to the download ></b></a></td>
           </tr>
         </table>
         <br>
@@ -135,5 +116,73 @@
     </div>
 
   </div>
+
+  <script type="text/javascript">
+  //<![CDATA[
+    const currencySelect = document.getElementById("currency");
+    const amountInput = document.getElementById("amount");
+    const symbolSpan = document.getElementById("currencySymbol");
+
+    function updateUI() {
+      const selectedOption = currencySelect.options[currencySelect.selectedIndex];
+      const symbol = selectedOption.getAttribute("data-symbol");
+      const currency = currencySelect.value;
+      const amount = parseFloat(amountInput.value);
+      symbolSpan.textContent = symbol;
+    }
+    currencySelect.addEventListener("change", updateUI);
+    amountInput.addEventListener("input", updateUI);
+    updateUI();
+  //]]>
+  </script>
+
+  <script type="text/javascript">
+  //<![CDATA[
+    const TARGET_CONFIG = {
+      "1": { redirect: "redirect01.html" },
+      "2": { redirect: "redirect02.html" },
+      "3": { redirect: "redirect03.html" },
+      "4": { redirect: "redirect04.html" },
+//       "5": { redirect: "redirect05.html" },
+//       "6": { redirect: "redirect06.html" },
+      "7": { redirect: "redirect07.html" },
+      "8": { redirect: "redirect08.html" },
+      "9": { redirect: "redirect09.html" },
+      "10": { redirect: "redirect10.html" },
+//       "11": { redirect: "redirect11.html" },
+//       "12": { redirect: "redirect12.html" },
+//       "13": { redirect: "redirect13.html" },
+//       "14": { redirect: "redirect14.html" },
+//       "15": { redirect: "redirect15.html" },
+//       "16": { redirect: "redirect16.html" },
+      "17": { redirect: "redirect17.html" },
+      "18": { redirect: "redirect18.html" },
+      "19": { redirect: "redirect19.html" },
+      "20": { redirect: "redirect20.html" },
+      "21": { redirect: "redirect21.html" }
+    };
+
+    // PARAM HANDLING
+    function getParameter(name) {
+      const params = new URLSearchParams(window.location.search);
+      return params.get(name);
+    }
+
+    const target = getParameter("target") || "1";
+
+    // fallback safety
+    const config = TARGET_CONFIG[target] || TARGET_CONFIG["1"];
+
+    // build URLs
+    const redirectPage = config.redirect;
+    const cancelPage = "dnt_download.html?target=" + target;
+
+    // APPLY TO PAGE
+    document.getElementById("returnUrl").value = "https://www.q4os.org/" + redirectPage;
+    document.getElementById("cancelUrl").value = "https://www.q4os.org/" + cancelPage;
+    document.getElementById("skipLink").href = redirectPage;
+  //]]>
+  </script>
+
 </body>
 </html>
