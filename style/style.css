@@ -7,7 +7,7 @@ body
   color: #5D5D5D;}
 
 p
-{ padding: 0 0 18px 0;
+{ padding: 0 0 16px 0;
   line-height: 1.7em;}
 
 h1, h2, h3, h4, h5, h6
@@ -422,4 +422,9 @@ input[type="radio"] {
   margin-right: 0.4em;
   max-width: 2.9em;
   -moz-appearance: textfield; /* Hides arrows in Firefox */
+}
+
+.cryptoaddress {
+  word-break: break-all;      /* breaks long strings */
+  overflow-wrap: anywhere;    /* modern, better wrapping */
 }

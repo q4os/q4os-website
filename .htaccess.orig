@@ -10,9 +10,6 @@
 #     ForceType application/octet-stream
 # #    Header set Content-Disposition attachment
 # </FilesMatch>
-
-# Redirect 301 /downloads/os_list_imagingutility_v3_q4os.json https://github.com/q4osteam/q4os-install-media/releases/download/v4/os_list_imagingutility_v3_q4os.json
-
 php_flag display_errors 0
 php_flag short_open_tag 1
 php_flag allow_url_include 0
