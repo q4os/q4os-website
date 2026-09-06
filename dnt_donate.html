@@ -76,20 +76,6 @@
                       alt="Donate with Stripe"
                       title="Donate with Debit/Credit card, Apple pay or Google pay via Stripe" />
                 </button>
-                <select id="stripe_currency" style="padding:6px;">
-                  <option value="https://donate.stripe.com/6oUbIVg6U2780ax2YG4Ni00">
-                    $ USD
-                  </option>
-                  <option value="https://donate.stripe.com/eVqcMZ7AodPQ9L756O4Ni02">
-                    € EUR
-                  </option>
-                  <option value="https://donate.stripe.com/cNi6oB6wk6no4qNeHo4Ni04">
-                    £ GBP
-                  </option>
-                  <option value="https://donate.stripe.com/9B6fZbbQEh221eBczg4Ni03">
-                    ¥ JPY
-                  </option>
-                </select>
               </div>
             </div>
 
@@ -210,7 +196,9 @@
   <script>
   //<![CDATA[
   function goStripe() {
-    window.location.href = document.getElementById("stripe_currency").value;
+    // One link for every donor: the amount is theirs to type and Stripe shows
+    // it in their own currency, so there is no currency to pick here any more.
+    window.location.href = "https://donate.stripe.com/cNiaER7Ao134e1ngPw4Ni08";
   }
   //]]>
   </script>
