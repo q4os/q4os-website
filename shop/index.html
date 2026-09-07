@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <title>Q4OS - desktop operating system</title>
+  <meta charset="utf-8">
+
+  <!-- **** layout stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="../style/style.css?v=2" />
+
+  <!-- **** colour scheme stylesheet **** -->
+  <link rel="stylesheet" type="text/css" href="../style/blue.css" />
+
+  <!-- **** favicon **** -->
+  <link rel="shortcut icon" type="image/png" href="../style/favicon.png"/>
+
+  <style type="text/css">
+  .shop_items {
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    margin-top: 1.4em;
+  }
+  .shop_item {
+    width: 17em;
+    margin-right: 3em;
+    margin-bottom: 2.6em;
+  }
+  .shop_item .shop_img {
+    height: 130px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 0.6em;
+  }
+  .shop_item .shop_img img {
+    max-height: 130px;
+    max-width: 100%;
+  }
+  .shop_item .shop_name {
+    font-weight: bold;
+    margin-bottom: 0.3em;
+  }
+  .shop_item .shop_desc {
+    font-size: 88%;
+    text-align: left;
+    margin-bottom: 0.7em;
+  }
+  .shop_item .shop_price {
+    font-size: 115%;
+    margin-bottom: 0.7em;
+  }
+  .shop_item .btn {
+    display: inline-block;
+    text-decoration: none;
+    border-bottom: none !important;
+    /* site-wide .btn is black on #303E9F, which is barely readable */
+    color: #ffffff !important;
+  }
+  .shop_note {
+    font-size: 90%;
+  }
+  </style>
+
+</head>
+
+<body>
+  <div id="main">
+
+    <div id="links">
+      <!-- **** INSERT LINKS HERE **** -->
+      <a href="../dnt_donate.html" title="Help us develop the perfect system for everyday use">Donate &hearts;</a> | <a href="https://www.q4os.org/forum/" title="Get community support you may need">Forum</a> | <a href="../blog.html" title="The official Q4OS blog and news">News</a> | <a href="https://www.q4os.org/shop/" title="Q4OS e-shop">Shop</a> | <a href="../contact.html" title="Contact us">Contact</a>
+    </div>
+
+    <div id="logo"></div>
+
+    <div id="menu">
+      <ul>
+        <!-- **** INSERT NAVIGATION ITEMS HERE (use id="selected" to identify the page you're on **** -->
+        <li><a href="../index.html">Home</a></li>
+        <li><a href="../downloads1.html">Downloads</a></li>
+        <li><a href="../documents.html">Documents</a></li>
+        <li><a href="../business.html">Business</a></li>
+        <li><a href="../developer.html">Developers</a></li>
+      </ul>
+    </div>
+
+    <div id="content">
+
+      <div id="column2">
+<!-- **** INSERT PAGE CONTENT HERE **** -->
+        <h1>Q4OS Store</h1>
+
+        <p>Installation media ready to boot, and a couple of things to wear and drink from. Every purchase supports Q4OS development :) Prices are in euros and exclude shipping, which is calculated at checkout from your delivery address.</p>
+
+        <h5>Installation media</h5>
+
+        <div class="shop_items">
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/cd.jpg" alt="Q4OS install CD" title="Q4OS install CD" /></div>
+            <div class="shop_name">Q4OS install CD</div>
+            <div class="shop_desc">Original bootable Q4OS installation CD. Choose your edition &mdash; Plasma live stable or Trinity &mdash; at checkout.</div>
+            <div class="shop_price">&euro;8.99</div>
+            <a class="btn" href="https://buy.stripe.com/5kQbIV1c05jk6yVgPw4Ni09">Buy</a>
+          </div>
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/usb.jpg" alt="Q4OS install USB" title="Q4OS install USB" /></div>
+            <div class="shop_name">Q4OS install USB</div>
+            <div class="shop_desc">Bootable Q4OS installation USB stick, 32&nbsp;GB. Choose your edition &mdash; Plasma live stable or Trinity &mdash; at checkout.</div>
+            <div class="shop_price">&euro;15.99</div>
+            <a class="btn" href="https://buy.stripe.com/7sY5kxdYM6nof5r7eW4Ni0a">Buy</a>
+          </div>
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/microsd.jpg" alt="Q4OS Raspberry Pi micro-SD card" title="Q4OS Raspberry Pi micro-SD card" /></div>
+            <div class="shop_name">Q4OS RPI micro-SD card</div>
+            <div class="shop_desc">Micro-SD card for Raspberry&nbsp;Pi&nbsp;2 and Pi&nbsp;3, 32&nbsp;GB, with Q4OS RPI preinstalled and ready to boot.</div>
+            <div class="shop_price">&euro;18.79</div>
+            <a class="btn" href="https://buy.stripe.com/4gMeV76wkeTU4qN42K4Ni0b">Buy</a>
+          </div>
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/sdcard.jpg" alt="Q4OS Raspberry Pi SD card" title="Q4OS Raspberry Pi SD card" /></div>
+            <div class="shop_name">Q4OS RPI SD card</div>
+            <div class="shop_desc">Full-size SD card for Raspberry&nbsp;Pi, 16&nbsp;GB, with Q4OS RPI preinstalled and ready to boot.</div>
+            <div class="shop_price">&euro;18.59</div>
+            <a class="btn" href="https://buy.stripe.com/00wcMZ1c0dPQ8H36aS4Ni0c">Buy</a>
+          </div>
+
+        </div>
+
+        <h5>Merchandise</h5>
+
+        <div class="shop_items">
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/tshirt.png" alt="Q4OS t-shirt" title="Q4OS t-shirt" /></div>
+            <div class="shop_name">Q4OS t-shirt</div>
+            <div class="shop_desc">Get a t-shirt and support Q4OS :) Choose your size and colour at checkout.</div>
+            <div class="shop_price">&euro;24.00</div>
+            <a class="btn" href="https://buy.stripe.com/14A00daMA1346yV6aS4Ni0d">Buy</a>
+          </div>
+
+          <div class="shop_item">
+            <div class="shop_img"><img src="images/cup.png" alt="Q4OS cup" title="Q4OS cup" /></div>
+            <div class="shop_name">Q4OS cup</div>
+            <div class="shop_desc">Get a cup and support Q4OS :)</div>
+            <div class="shop_price">&euro;25.00</div>
+            <a class="btn" href="https://buy.stripe.com/28E4gtdYMaDEe1n2YG4Ni0e">Buy</a>
+          </div>
+
+        </div>
+
+        <h5>Ordering, delivery and returns</h5>
+        <p class="shop_note">Checkout is handled by <b>Stripe</b>, which accepts bank cards as well as Apple&nbsp;Pay and Google&nbsp;Pay. Your card details are entered on Stripe's own pages and never reach our server. Shipping is added at checkout based on where the parcel is going.<br>
+        Questions about an order, a different media edition, a t-shirt size or a return? Write to <a href="mailto:sales@q4os.org">sales@q4os.org</a> and we will get back to you.</p>
+
+        <p class="shop_note">Prefer to support Q4OS without buying anything? The <a href="../dnt_donate.html" title="Help us develop the perfect system for everyday use">donation page</a> takes cards, PayPal, Patreon, Liberapay and cryptocurrencies.</p>
+
+<!-- **** PAGE CONTENT END **** -->
+      </div> <!--id="column2"-->
+
+    </div> <!--id="content"-->
+
+    <div id="footer">
+      <a href="https://www.q4os.org">copyright &copy; 2026 Jupiter4 foundation</a>
+    </div>
+
+  </div>
+
+</body>
+</html>
