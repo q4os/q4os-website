@@ -171,9 +171,11 @@
               <div style="margin-top:0em; margin-bottom:0.6em">Donate from your <b>phone</b>:</div>
               <!-- The same Stripe link the card button uses. Scanning opens it on the
                    phone, where Apple pay and Google pay are offered by the phone itself.
-                   The image is 246px so that the 123px it is shown at is an exact 2:1
-                   downscale, and 1:1 on a HiDPI screen. -->
-              <div><a style="border:none;" href="https://donate.stripe.com/cNiaER7Ao134e1ngPw4Ni08"><img src="qr_codes/donate_stripe_qr.png" width="123" height="123" title="Scan or tap to donate with Apple pay, Google pay or a card via Stripe" alt="QR code opening the Q4OS donation page" /></a></div>
+                   The code is cropped flush, with no white quiet zone baked in, so it
+                   starts at the same distance below its heading as every other option
+                   graphic does; the page background supplies the quiet zone a scanner
+                   needs. The image is 198px so 99px is an exact 2:1 downscale. -->
+              <div><a style="border:none;" href="https://donate.stripe.com/cNiaER7Ao134e1ngPw4Ni08"><img src="qr_codes/donate_stripe_qr.png" width="99" height="99" title="Scan or tap to donate with Apple pay, Google pay or a card via Stripe" alt="QR code opening the Q4OS donation page" /></a></div>
             </div>
           </div>
 
