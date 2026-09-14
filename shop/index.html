@@ -25,6 +25,11 @@
     width: 17em;
     margin-right: 3em;
     margin-bottom: 2.6em;
+    /* a column, so the price and the Buy button can be pushed to the bottom
+       of the tile - descriptions run to a different number of lines and the
+       buttons of one row would otherwise sit at different heights */
+    display: flex;
+    flex-direction: column;
   }
   .shop_item .shop_img {
     height: 130px;
@@ -47,11 +52,16 @@
   }
   .shop_item .shop_price {
     font-size: 115%;
+    /* takes up the slack left by a shorter description */
+    margin-top: auto;
     margin-bottom: 0.7em;
   }
   .shop_item .shop_link,
   .shop_item .shop_link:hover {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    /* fill the tile, which the row has stretched to its tallest member */
+    flex: 1;
     color: inherit !important;
     /* #column2 a puts a dashed underline on every link in the page body,
        which across a whole tile looks like a mistake */
@@ -63,6 +73,8 @@
   }
   .shop_item .btn {
     display: inline-block;
+    /* keep it button-sized, a flex item would stretch to the tile width */
+    align-self: flex-start;
     text-decoration: none;
     border-bottom: none !important;
     /* site-wide .btn is black on #303E9F, which is barely readable */
