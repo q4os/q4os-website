@@ -10,7 +10,7 @@ cd ../
 rm -rf $DSTDIR
 cp -a $SRCDIR $DSTDIR
 cd $DSTDIR
-rm -rf .old *.disabled .git/ .dev/
+rm -rf .old *.disabled .git/ .dev/ CLAUDE.md .claude/
 
 find . -type f -iname "*.html" | while read -r INFILE
 do
