@@ -1,0 +1,68 @@
+/* narrow screens - phones, small tablets */
+/* pages load this file with media="(max-width: 899px)", so nothing here applies from 900px up;
+   it is a separate file and not an @media block because csstidy 1.4 (compile_web.sh) drops the
+   parentheses of media queries and so breaks them */
+
+#main, #links, #footer, #logo, #menu, #content{width: auto;}
+
+#links, #footer
+{ height: auto;
+  padding: 6px 8px;
+  line-height: 1.8em;
+}
+
+#links{text-align: center;}
+
+/* scale the 900x200 banner to the page width: padding in % is relative to the width;
+   #main makes it win over the background shorthand in blue.css */
+#main #logo
+{ height: 0px;
+  padding-bottom: 22.2222%;
+  background-size: 100% 100%;
+}
+
+#menu
+{ height: auto;
+  margin-top: 0px;
+  overflow: hidden;
+}
+
+#menu li a, #menu li a:hover, #menu li a#selected, #menu li a#selected:hover{padding: 6px 10px 2px 10px;}
+
+/* one column, the page content first and the sidebar below it */
+#content
+{ display: flex;
+  flex-direction: column;
+}
+
+#column1
+{ order: 2;
+  float: none;
+  width: auto;
+  margin: 10px 0px 0px 0px;
+  padding: 10px;
+}
+
+.sidebaritem
+{ float: none;
+  width: auto;
+  margin: 0px 0px 20px 0px;
+}
+
+#column2
+{ order: 1;
+  float: none;
+  width: auto;
+  padding: 2px 10px 15px 10px;
+  text-align: left;
+  overflow-wrap: break-word;
+}
+
+.feat_left, .feat_right
+{ float: none;
+  width: auto;
+}
+
+#column2 img{max-width: 100%;}
+
+#column2 img[width][height]{height: auto;}
