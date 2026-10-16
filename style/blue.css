@@ -37,7 +37,7 @@ blockquote{border-color: #109CEF;}
 
 h1, #column1 h1, #column2 h1
 { background: transparent;
-  color: #5F74C7;
+  color: #5468BE;
   border-color: #787878;
 }
 
@@ -76,7 +76,7 @@ h1, #column1 h1, #column2 h1
 
 .sbilinks li a, .sidebaritem a
 { background: #FFF url(arrow.png) no-repeat left center;
-  color: #5F74C7;
+  color: #5468BE;
 }
 
 .sbilinks li a:hover, .sidebaritem a:hover

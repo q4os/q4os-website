@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /downloads/
+Sitemap: https://www.q4os.org/sitemap.xml

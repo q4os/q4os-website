@@ -42,7 +42,9 @@ h5
 
 img{border: 0px;}
 
-a{outline: none;}
+/* show where the keyboard focus is (mouse clicks show no outline); black keeps 3:1 contrast
+   on the white page and on the #5b6782 bars */
+a:focus-visible{outline: 2px solid #000000;}
 
 /* image positioning - left, right and center */
 .left
@@ -138,6 +140,16 @@ ol li
 { padding: 60px 0px 0px 20px;
   font-size: 90%;
   color: #FFFFFF
+}
+
+/* text for screen readers and search engines only, e.g. the site name over the banner;
+   no clip: rect() here, csstidy 1.4 turns it into rect(0000) */
+.hidden_text
+{ position: absolute;
+  left: -10000px;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
 }
 
 #logo h2
