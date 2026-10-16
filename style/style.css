@@ -63,6 +63,17 @@ a:focus-visible{outline: 2px solid #000000;}
   margin: 0 auto;
 }
 
+/* home page feature boxes, screenshot and text side by side */
+.feat_left
+{ float: left;
+  width: 280px;
+}
+
+.feat_right
+{ float: right;
+  width: 300px;
+}
+
 /* block quote */
 blockquote
 { margin: 20px 0px 20px 0px;
