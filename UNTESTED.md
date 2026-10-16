@@ -14,7 +14,5 @@ Changes made in cloud sessions that could not be fully tested there. Delete an i
   it, mouse click does not); not checked in Firefox or Safari.
 - New `alt` texts on `dnt_crypto.html`, `dnt_donate.html`, `armdesktop/index.html`: not checked with a screen
   reader. Payment links and form values on those pages are byte-identical to before.
-- Body text 16px (`body` `.8333em`, was `.75em`) and heading/sidebar-link blue `#5468BE` (was `#5F74C7`):
-  checked in headless Chromium only (no overflow, menu on one row, no sidebar link wraps, pages up to 1.23x
-  longer). The shop and donation tiles are now 245px/43px instead of 17em/3em so two still fit per row.
-  Not checked in Firefox, on a real phone, or on the live site.
+- Heading and sidebar-link blue `#5468BE` (was `#5F74C7`): checked in headless Chromium only; not checked
+  in Firefox or on the live site.
