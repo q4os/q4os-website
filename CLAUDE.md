@@ -45,8 +45,8 @@ file wherever they differ, and "Cloud sessions" below does not apply. The repo-s
 
 Source of www.q4os.org (static HTML/CSS).
 
-- This repo is the **source**; the live site is a minified copy (`.dev/compile_web.sh` -> tidy/csstidy) that the
-  owner generates and uploads. Change sources only; never run `.dev/compile_web.sh` or any deploy step.
+- This repo is the **source**; the live site is a minified copy (`.dev/compile_web.sh` -> tidy/csstidy into
+  `../a02_web_compil/`) that the owner uploads. Change sources only; never run an upload or deploy step.
 - Follow the existing markup style of the page you edit; no frameworks, trackers, external scripts or fonts.
 - Version numbers, download links, checksums and prices must match what is really published - never guess
   them. If a value can't be verified, flag it in the PR instead of changing it.
