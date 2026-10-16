@@ -11,6 +11,10 @@ rm -rf $DSTDIR
 cp -a $SRCDIR $DSTDIR
 cd $DSTDIR
 rm -rf .old *.disabled .git/ .dev/ CLAUDE.md .claude/
+# hidden files (old copies, backups) and image sources are not for upload;
+# keep the server config and touch/.tstinet (looks like an internet check)
+find . -name '.?*' ! -name .htaccess ! -name .user.ini ! -name .tstinet -prune -exec rm -rf {} +
+find . -type f -iname '*.xcf' -exec rm -f {} +
 
 find . -type f -iname "*.html" | while read -r INFILE
 do

@@ -6,7 +6,7 @@ body
 blockquote{border-color: #109CEF;}
 
 #main
-{ background: #FFF url(main.png) repeat;
+{ background: #FFF;
   color: #5F74C7;
 }
 
