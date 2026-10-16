@@ -2,7 +2,7 @@
 html{height: 100%;}
 
 body
-{ font: normal .75em arial, sans-serif;
+{ font: normal .8333em arial, sans-serif;
   background: #FBFBFB;
   color: #5D5D5D;}
 
@@ -61,6 +61,17 @@ a:focus-visible{outline: 2px solid #000000;}
 { display: block;
   text-align: center;
   margin: 0 auto;
+}
+
+/* home page feature boxes, screenshot and text side by side */
+.feat_left
+{ float: left;
+  width: 280px;
+}
+
+.feat_right
+{ float: right;
+  width: 300px;
 }
 
 /* block quote */
@@ -358,10 +369,11 @@ ol li
   flex-wrap: wrap;
 }
 
+/* px, not em: two tiles must fit the 630px column whatever the font size */
 .dnt_row > div {
-  margin-right: 3em;
+  margin-right: 43px;
   margin-bottom: 3em;
-  width: 17em;
+  width: 245px;
 }
 
 .dnt_cell_1 select,
